@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the exact source commit and the bounded v2 result when using this research reference."
+type: software
+title: "Living Context: revision-aware context research and in-memory reference"
+authors:
+  - family-names: Lovell
+    given-names: Jason
+version: 0.1.0
+abstract: >-
+  In-memory revision catalog and refresh planner with a bounded negative
+  soft-prefix feasibility study and model-free evidence replay.
+repository-code: https://github.com/jlov7/living-context

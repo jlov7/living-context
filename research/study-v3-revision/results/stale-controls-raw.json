@@ -1,0 +1,140 @@
+{
+  "rows": [
+    {
+      "current_revision": "r2",
+      "doc_id": "routing-cedar",
+      "old_revision": "r1",
+      "question_index": 0,
+      "result": {
+        "elapsed_s": 0.12,
+        "metrics": {
+          "decode_s": 0.08062024903483689,
+          "elapsed_s": 0.11941720801405609,
+          "finish_reason": "stop",
+          "generated_token_ids": [
+            5018,
+            9399,
+            3332,
+            2152,
+            12,
+            24054,
+            3391,
+            9388
+          ],
+          "generation_tokens": 9,
+          "prompt_s": 0.03879695897921919,
+          "prompt_tokens": 85,
+          "reported_peak_memory_gb": 1.681589808
+        },
+        "raw": "{\"answer\":\"CE-72843\"}",
+        "score": {
+          "answer": "CE-72843",
+          "error": "wrong_answer",
+          "exact": false
+        }
+      }
+    },
+    {
+      "current_revision": "r2",
+      "doc_id": "routing-cedar",
+      "old_revision": "r1",
+      "question_index": 1,
+      "result": {
+        "elapsed_s": 0.111,
+        "metrics": {
+          "decode_s": 0.0825536249903962,
+          "elapsed_s": 0.11068895802600309,
+          "finish_reason": "stop",
+          "generated_token_ids": [
+            5018,
+            9399,
+            3332,
+            2152,
+            12,
+            24054,
+            3391,
+            9388
+          ],
+          "generation_tokens": 9,
+          "prompt_s": 0.02813533303560689,
+          "prompt_tokens": 83,
+          "reported_peak_memory_gb": 1.681589808
+        },
+        "raw": "{\"answer\":\"CE-72843\"}",
+        "score": {
+          "answer": "CE-72843",
+          "error": "wrong_answer",
+          "exact": false
+        }
+      }
+    },
+    {
+      "current_revision": "r2",
+      "doc_id": "permit-larch",
+      "old_revision": "r1",
+      "question_index": 0,
+      "result": {
+        "elapsed_s": 0.126,
+        "metrics": {
+          "decode_s": 0.08226891700178385,
+          "elapsed_s": 0.12542416696669534,
+          "finish_reason": "stop",
+          "generated_token_ids": [
+            5018,
+            9399,
+            3332,
+            18326,
+            12,
+            22777,
+            5538,
+            9388
+          ],
+          "generation_tokens": 9,
+          "prompt_s": 0.04315524996491149,
+          "prompt_tokens": 87,
+          "reported_peak_memory_gb": 1.681589808
+        },
+        "raw": "{\"answer\":\"LA-90462\"}",
+        "score": {
+          "answer": "LA-90462",
+          "error": "wrong_answer",
+          "exact": false
+        }
+      }
+    },
+    {
+      "current_revision": "r2",
+      "doc_id": "permit-larch",
+      "old_revision": "r1",
+      "question_index": 1,
+      "result": {
+        "elapsed_s": 0.116,
+        "metrics": {
+          "decode_s": 0.0804917499772273,
+          "elapsed_s": 0.11604774999432266,
+          "finish_reason": "stop",
+          "generated_token_ids": [
+            5018,
+            9399,
+            3332,
+            18326,
+            12,
+            22777,
+            5538,
+            9388
+          ],
+          "generation_tokens": 9,
+          "prompt_s": 0.03555600001709536,
+          "prompt_tokens": 84,
+          "reported_peak_memory_gb": 1.681589808
+        },
+        "raw": "{\"answer\":\"LA-90462\"}",
+        "score": {
+          "answer": "LA-90462",
+          "error": "wrong_answer",
+          "exact": false
+        }
+      }
+    }
+  ]
+}

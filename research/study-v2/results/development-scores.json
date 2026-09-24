@@ -1,0 +1,925 @@
+{
+  "phase": "development",
+  "protocol_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "raw_file": "development-raw.json",
+  "raw_seal_sha256": "256a2604fee9fd9c867442b20bfda94fae65beafd9275fbad64ba1b1cbed4bcf",
+  "raw_sha256": "f586714c554b2ccf20836c1bd7fe61f855255d0fcaedf6e7d7bf2fabad717896",
+  "rows": [
+    {
+      "arm": "bare",
+      "metrics": {
+        "decode_s": 0.0745173329487443,
+        "elapsed_s": 0.12790924997534603,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          220,
+          330,
+          9399,
+          794,
+          330,
+          53,
+          8458,
+          46955,
+          6146,
+          5905,
+          702,
+          92
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.05339191702660173,
+        "prompt_tokens": 77,
+        "reported_peak_memory_gb": 0.825956064
+      },
+      "output": "{\n  \"answer\": \"Vela Transit Node reference\"\n}",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "wrong_answer",
+        "parsed_answer": "Vela Transit Node reference"
+      }
+    },
+    {
+      "arm": "text_fresh",
+      "metrics": {
+        "decode_s": 0.07474620803259313,
+        "elapsed_s": 0.10406208300264552,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          32919,
+          12,
+          24626,
+          19,
+          16222,
+          51,
+          1,
+          335
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.02931587497005239,
+        "prompt_tokens": 106,
+        "reported_peak_memory_gb": 0.924553068
+      },
+      "output": "{\n \"answer\": \"DEV-7314-KT\" }",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "DEV-7314-KT"
+      }
+    },
+    {
+      "arm": "text_cached",
+      "cache": {
+        "cache_build_s": 0.017598167003598064,
+        "cache_bytes": 8388608,
+        "cache_hit": false,
+        "next_token_argmax_equal": true,
+        "next_token_cached_logit_dtype": "mlx.core.float16",
+        "next_token_comparison_dtype": "mlx.core.float32",
+        "next_token_fresh_logit_dtype": "mlx.core.float16",
+        "next_token_max_abs_cached_logit": 21.953125,
+        "next_token_max_abs_fresh_logit": 21.953125,
+        "next_token_max_abs_logit_diff": 0.033203125,
+        "parity_check_s": 0.039161042019259185
+      },
+      "metrics": {
+        "decode_s": 0.0760442090104334,
+        "elapsed_s": 0.0883257919922471,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          32919,
+          12,
+          24626,
+          19,
+          16222,
+          51,
+          1,
+          335
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.012281582981813699,
+        "prompt_tokens": 17,
+        "reported_peak_memory_gb": 0.924553068
+      },
+      "output": "{\n \"answer\": \"DEV-7314-KT\" }",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "DEV-7314-KT"
+      }
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.11280508304480463,
+        "elapsed_s": 0.48375883302651346,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          5905,
+          3335,
+          3335,
+          3335,
+          13,
+          11699,
+          6988,
+          2082,
+          374,
+          51995,
+          12,
+          24626,
+          19,
+          16222,
+          51,
+          13,
+          11699,
+          23730,
+          11381,
+          374,
+          34928,
+          3223,
+          1210,
+          92
+        ],
+        "generation_tokens": 26,
+        "prompt_s": 0.3709537499817088,
+        "prompt_tokens": 141,
+        "reported_peak_memory_gb": 1.143547068
+      },
+      "objective": "document_reconstruction",
+      "output": "{\" reference record record record. Its dispatch code is DEV-7314-KT. Its intake marker is cobalt.\"}",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 7
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.12039437500061467,
+        "elapsed_s": 0.16993199998978525,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          42,
+          8458,
+          5905,
+          3335,
+          13,
+          11699,
+          14924,
+          374,
+          755,
+          972,
+          24626,
+          19,
+          16222,
+          13,
+          11699,
+          23730,
+          11381,
+          374,
+          34928,
+          374,
+          34928,
+          3223,
+          1210,
+          92
+        ],
+        "generation_tokens": 26,
+        "prompt_s": 0.04953762498917058,
+        "prompt_tokens": 141,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "objective": "document_reconstruction",
+      "output": "{\"Kela reference record. ItsQuestion isdef187314-K. Its intake marker is cob is cobalt.\"}",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 11
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.12957120896317065,
+        "elapsed_s": 0.17830683395732194,
+        "finish_reason": "length",
+        "generated_token_ids": [
+          14924,
+          315,
+          14924,
+          315,
+          16309,
+          14924,
+          315,
+          3936,
+          315,
+          14924,
+          315,
+          315,
+          3936,
+          315,
+          14924,
+          315,
+          315,
+          315,
+          315,
+          315,
+          315,
+          13,
+          14924,
+          315,
+          315,
+          14924,
+          14924,
+          315,
+          14924,
+          315,
+          3936
+        ],
+        "generation_tokens": 32,
+        "prompt_s": 0.048735624994151294,
+        "prompt_tokens": 141,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "objective": "document_reconstruction",
+      "output": "Question ofQuestion ofTagsQuestion ofTitle ofQuestion of ofTitle ofQuestion of of of of of of.Question of ofQuestionQuestion ofQuestion ofTitle of",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 19
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.13158108299830928,
+        "elapsed_s": 0.18057562498142943,
+        "finish_reason": "length",
+        "generated_token_ids": [
+          315,
+          755,
+          755,
+          14924,
+          12,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          12,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          12
+        ],
+        "generation_tokens": 32,
+        "prompt_s": 0.04899454198312014,
+        "prompt_tokens": 141,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "objective": "source_qa",
+      "output": "ofdefdefQuestion-QuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestion-QuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestion-\u0301",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 7
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.060087834019213915,
+        "elapsed_s": 0.10795408400008455,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          86656,
+          3223,
+          9388
+        ],
+        "generation_tokens": 5,
+        "prompt_s": 0.047866249980870634,
+        "prompt_tokens": 141,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "objective": "source_qa",
+      "output": "{\"cobalt\"}",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 11
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.058673374995123595,
+        "elapsed_s": 0.10746183298761025,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          315,
+          86656,
+          3223,
+          9388
+        ],
+        "generation_tokens": 5,
+        "prompt_s": 0.048788457992486656,
+        "prompt_tokens": 141,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "objective": "source_qa",
+      "output": "ofcobalt\"}",
+      "question_id": "dev-code-a",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 1.591700129210949e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 19
+    },
+    {
+      "arm": "bare",
+      "metrics": {
+        "decode_s": 0.08678095799405128,
+        "elapsed_s": 0.10972587502328679,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          74694,
+          2285,
+          198,
+          517,
+          220,
+          330,
+          9399,
+          794,
+          330,
+          53,
+          8458,
+          46955,
+          6146,
+          702,
+          534,
+          74694
+        ],
+        "generation_tokens": 17,
+        "prompt_s": 0.022944917029235512,
+        "prompt_tokens": 80,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "output": "```json\n{\n  \"answer\": \"Vela Transit Node\"\n}\n```",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      }
+    },
+    {
+      "arm": "text_fresh",
+      "metrics": {
+        "decode_s": 0.08068745804484934,
+        "elapsed_s": 0.10923808300867677,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          32919,
+          12,
+          24626,
+          19,
+          16222,
+          51,
+          1,
+          720,
+          92
+        ],
+        "generation_tokens": 15,
+        "prompt_s": 0.02855062496382743,
+        "prompt_tokens": 109,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "output": "{\n \"answer\": \"DEV-7314-KT\" \n}",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "DEV-7314-KT"
+      }
+    },
+    {
+      "arm": "text_cached",
+      "cache": {
+        "cache_build_s": 0.0,
+        "cache_bytes": 8388608,
+        "cache_hit": true,
+        "next_token_argmax_equal": true,
+        "next_token_cached_logit_dtype": "mlx.core.float16",
+        "next_token_comparison_dtype": "mlx.core.float32",
+        "next_token_fresh_logit_dtype": "mlx.core.float16",
+        "next_token_max_abs_cached_logit": 21.65625,
+        "next_token_max_abs_fresh_logit": 21.65625,
+        "next_token_max_abs_logit_diff": 0.0625,
+        "parity_check_s": 0.03765366697916761
+      },
+      "metrics": {
+        "decode_s": 0.07783412502612919,
+        "elapsed_s": 0.09111216600285843,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          32919,
+          12,
+          24626,
+          19,
+          16222,
+          51,
+          1,
+          720,
+          92
+        ],
+        "generation_tokens": 15,
+        "prompt_s": 0.013278040976729244,
+        "prompt_tokens": 20,
+        "reported_peak_memory_gb": 1.143553596
+      },
+      "output": "{\n \"answer\": \"DEV-7314-KT\" \n}",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "DEV-7314-KT"
+      }
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.10297050001099706,
+        "elapsed_s": 0.15634041704470292,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          4320,
+          13,
+          11699,
+          6988,
+          2082,
+          374,
+          51995,
+          12,
+          24626,
+          19,
+          16222,
+          51,
+          13,
+          11699,
+          23730,
+          11381,
+          374,
+          34928,
+          3223,
+          1210,
+          92
+        ],
+        "generation_tokens": 23,
+        "prompt_s": 0.05336991703370586,
+        "prompt_tokens": 144,
+        "reported_peak_memory_gb": 1.150969416
+      },
+      "objective": "document_reconstruction",
+      "output": "{\" answer. Its dispatch code is DEV-7314-KT. Its intake marker is cobalt.\"}",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 7
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.10612929199123755,
+        "elapsed_s": 0.15440133301308379,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          11699,
+          23730,
+          5905,
+          3335,
+          11699,
+          755,
+          5196,
+          82,
+          16,
+          24626,
+          19,
+          16222,
+          51,
+          13,
+          11699,
+          23730,
+          11381,
+          374,
+          34928,
+          3223,
+          1210,
+          92
+        ],
+        "generation_tokens": 23,
+        "prompt_s": 0.048272041021846235,
+        "prompt_tokens": 144,
+        "reported_peak_memory_gb": 1.15097556
+      },
+      "objective": "document_reconstruction",
+      "output": "Its intake reference record Itsdef itselfs17314-KT. Its intake marker is cobalt.\"}",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 11
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.13155641703633592,
+        "elapsed_s": 0.180851542041637,
+        "finish_reason": "length",
+        "generated_token_ids": [
+          14924,
+          315,
+          16309,
+          14924,
+          315,
+          14924,
+          315,
+          14924,
+          315,
+          3936,
+          315,
+          14924,
+          315,
+          315,
+          315,
+          315,
+          315,
+          315,
+          13,
+          14924,
+          315,
+          315,
+          14924,
+          14924,
+          315,
+          14924,
+          315,
+          3936,
+          315,
+          14924,
+          315
+        ],
+        "generation_tokens": 32,
+        "prompt_s": 0.04929512500530109,
+        "prompt_tokens": 144,
+        "reported_peak_memory_gb": 1.15097556
+      },
+      "objective": "document_reconstruction",
+      "output": "Question ofTagsQuestion ofQuestion ofQuestion ofTitle ofQuestion of of of of of of.Question of ofQuestionQuestion ofQuestion ofTitle ofQuestion of of",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 19
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.13209912402089685,
+        "elapsed_s": 0.18261279101716354,
+        "finish_reason": "length",
+        "generated_token_ids": [
+          14924,
+          12,
+          14924,
+          14924,
+          755,
+          315,
+          13,
+          315,
+          315,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          12,
+          315,
+          755,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          14924,
+          12,
+          54939,
+          12,
+          67515
+        ],
+        "generation_tokens": 32,
+        "prompt_s": 0.0505136669962667,
+        "prompt_tokens": 144,
+        "reported_peak_memory_gb": 1.15097556
+      },
+      "objective": "source_qa",
+      "output": "Question-QuestionQuestiondef of. of ofQuestionQuestionQuestionQuestionQuestionQuestionQuestion- ofdefQuestionQuestionQuestionQuestionQuestionQuestionQuestionQuestion-\u0301--question publisher",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 7
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.0512338750413619,
+        "elapsed_s": 0.1026111250394024,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018
+        ],
+        "generation_tokens": 2,
+        "prompt_s": 0.0513772499980405,
+        "prompt_tokens": 144,
+        "reported_peak_memory_gb": 1.15097556
+      },
+      "objective": "source_qa",
+      "output": "{\"",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 11
+    },
+    {
+      "arm": "prefix",
+      "artifact_source_revisions": [
+        {
+          "doc_id": "vela-transit-node",
+          "revision": "v1",
+          "source_id": "development-vela-v1"
+        }
+      ],
+      "metrics": {
+        "decode_s": 0.046590875019319355,
+        "elapsed_s": 0.09953225002391264,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          9388
+        ],
+        "generation_tokens": 2,
+        "prompt_s": 0.05294137500459328,
+        "prompt_tokens": 144,
+        "reported_peak_memory_gb": 1.15097556
+      },
+      "objective": "source_qa",
+      "output": "\"}",
+      "question_id": "dev-code-b",
+      "retrieval_contains_audit_sources": true,
+      "retrieval_s": 4.395900759845972e-05,
+      "retrieved_source_ids": [
+        "development-vela-v1"
+      ],
+      "score": {
+        "correct": false,
+        "error": "invalid_json",
+        "parsed_answer": null
+      },
+      "seed": 19
+    }
+  ],
+  "schema_version": 1,
+  "scoring_s": 0.019936750002671033,
+  "snapshot": null
+}

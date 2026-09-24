@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py", line 1377, in <module>
+    main()
+    ~~~~^^
+  File "<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py", line 1369, in main
+    _calibration_worker(args.payload)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py", line 564, in _calibration_worker
+    text = _cache_check_and_generate(
+        model,
+    ...<6 lines>...
+        payload["cache_logit_atol"],
+    )
+  File "<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py", line 519, in _cache_check_and_generate
+    raise StudyValidationError("cached and fresh next-token logits differ")
+living_context.replacement_study.StudyValidationError: cached and fresh next-token logits differ

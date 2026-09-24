@@ -1,0 +1,115 @@
+{
+  "admitted_artifact_metadata": {
+    "final": {
+      "bytes": {
+        "permit-larch@r2#config": 1393,
+        "permit-larch@r2#tensor": 5647955,
+        "permit-olive@r1#config": 1393,
+        "permit-olive@r1#tensor": 5647955,
+        "routing-cedar@r2#config": 1395,
+        "routing-cedar@r2#tensor": 5647955,
+        "routing-drift@r1#config": 1395,
+        "routing-drift@r1#tensor": 5647955
+      },
+      "sha256": {
+        "permit-larch@r2#config": "ff7f5074f3ab3d5826f9358047110f52d6882d83f69713d366e8ef70281b3c1b",
+        "permit-larch@r2#tensor": "e3fbc74f13826993cb4e999c38e13fb9553b7cc195ae576cddfd62803e47ac40",
+        "permit-olive@r1#config": "a7f2a3dd7aa12ada747e2f4f97d475330482666ed5c638fa6e769419f2a2f0ba",
+        "permit-olive@r1#tensor": "035184672dfe9af3db005f8b7702286e1e24dbf6d5ca2f9a069fc32bb5256847",
+        "routing-cedar@r2#config": "58a194223531a88eb4d04ded62d3590561529d24964d9e16b0ea572f673d27c8",
+        "routing-cedar@r2#tensor": "6814bd7bf9a9f9f3921087f83cc96fc28c464a61553fbab32477aa919c5c4d58",
+        "routing-drift@r1#config": "3640fb3dd14a99be691e633cd5de336fb5b75b533ac657e66e217a64a76702f7",
+        "routing-drift@r1#tensor": "dffdf05dc67098c04f4e4104ffc1095f1387e1605111a3723a99285108945ebf"
+      }
+    },
+    "initial": {
+      "bytes": {
+        "permit-larch@r1#config": 1393,
+        "permit-larch@r1#tensor": 5647955,
+        "permit-mesa@r1#config": 1391,
+        "permit-mesa@r1#tensor": 5647955,
+        "routing-cedar@r1#config": 1395,
+        "routing-cedar@r1#tensor": 5647955,
+        "routing-drift@r1#config": 1395,
+        "routing-drift@r1#tensor": 5647955
+      },
+      "sha256": {
+        "permit-larch@r1#config": "c689e19faa58bec97b1d6a5e0ba5cae4f510f6f6f4114cf218f2eb19f8f96ef4",
+        "permit-larch@r1#tensor": "d58025f679618d038c7193289665afdfd5fe02e0662c979399b301049335e56c",
+        "permit-mesa@r1#config": "bcf8d6c92451661ab419feb63b9965a9a76a731e684c858cc0f401837220b736",
+        "permit-mesa@r1#tensor": "bff8456c51b2e01eb618c17c909254df5876ffd50364dc61746aaa7408aa47f0",
+        "routing-cedar@r1#config": "b047621be996b467f7b1566970bb3ec5213ef8e26f94305c8300191c67bdaa90",
+        "routing-cedar@r1#tensor": "48101e07ded41b67f530ce4ba7741c0128aa9e29b6e238adfc8f01695fc28536",
+        "routing-drift@r1#config": "3640fb3dd14a99be691e633cd5de336fb5b75b533ac657e66e217a64a76702f7",
+        "routing-drift@r1#tensor": "dffdf05dc67098c04f4e4104ffc1095f1387e1605111a3723a99285108945ebf"
+      }
+    }
+  },
+  "claim_ceiling": "exploratory local synthetic revision study; no broad generalization, unlearning, online update latency, lifecycle cost crossover or product advantage",
+  "denominator_per_phase": 8,
+  "lifecycle": {
+    "active_artifact_bytes": 22597396,
+    "base_load_s": 0.487,
+    "deleted_current": false,
+    "failed_candidate_atomic": true,
+    "final_generation": 2,
+    "initial_generation": 1,
+    "invalidated_cache_entries": {
+      "permit-larch": 1,
+      "permit-mesa": 1,
+      "routing-cedar": 1
+    },
+    "retained_artifact_bytes": 39545440,
+    "stale_artifact_rejected": true,
+    "unchanged_artifact_reused": true
+  },
+  "primary_exact": {
+    "final": {
+      "adapter": 8,
+      "bare": 0,
+      "text": 7
+    },
+    "initial": {
+      "adapter": 8,
+      "bare": 0,
+      "text": 8
+    }
+  },
+  "query_metrics": {
+    "final": {
+      "adapter_generation_s": 0.901,
+      "adapter_load_s": 1.766,
+      "bare_generation_s": 0.788,
+      "cache_build_s": 0.087,
+      "cache_builds": 3,
+      "cache_hits": 5,
+      "cached_generation_s": 0.666,
+      "total_fresh_cached_validation_s": 1.83
+    },
+    "initial": {
+      "adapter_generation_s": 0.941,
+      "adapter_load_s": 1.811,
+      "bare_generation_s": 0.828,
+      "cache_build_s": 0.127,
+      "cache_builds": 4,
+      "cache_hits": 4,
+      "cached_generation_s": 0.664,
+      "total_fresh_cached_validation_s": 1.904
+    }
+  },
+  "resource": {
+    "cumulative_worker_elapsed_s": 61.628,
+    "inference_worker_elapsed_s": 13.66,
+    "max_reported_mlx_peak_gb": 1.682,
+    "peak_sampled_rss_bytes": 2663972864,
+    "training_worker_elapsed_s": 47.968,
+    "worker_count": 8
+  },
+  "source_freeze_state": "AMENDED_AND_FROZEN_BEFORE_REVISION_OUTCOMES",
+  "stale_controls": {
+    "denominator": 4,
+    "exact_current": 0
+  },
+  "status": "REVISION_GATE_PASS",
+  "study": "lc-study-v3-revision"
+}

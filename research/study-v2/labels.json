@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "labels": {
+    "cal-archive": "CAL-4829-ZQ",
+    "cal-color": "saffron",
+    "dev-code-a": "DEV-7314-KT",
+    "dev-code-b": "DEV-7314-KT",
+    "final-initial-orchid": "FIN-2846-QM",
+    "final-initial-juniper": "FIN-6318-RP",
+    "final-initial-cross": "FIN-2846-QM + FIN-6318-RP",
+    "final-orchid-a": "FIN-9073-LX",
+    "final-orchid-b": "FIN-9073-LX",
+    "final-juniper-a": "FIN-6318-RP",
+    "final-juniper-b": "FIN-6318-RP",
+    "final-cross": "FIN-9073-LX + FIN-6318-RP"
+  }
+}

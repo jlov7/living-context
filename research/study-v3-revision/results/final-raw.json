@@ -1,0 +1,885 @@
+{
+  "rows": [
+    {
+      "adapter_load_s": 0.431,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.112,
+          "metrics": {
+            "decode_s": 0.0821817489922978,
+            "elapsed_s": 0.11144483298994601,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              7842,
+              12,
+              15189,
+              3534,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.02926308399764821,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\"answer\":\"DR-31597\"}",
+          "score": {
+            "answer": "DR-31597",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.099,
+          "metrics": {
+            "decode_s": 0.07693895901320502,
+            "elapsed_s": 0.0985351669951342,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              14196,
+              4077,
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              9023,
+              2130,
+              3335,
+              30158,
+              702,
+              534,
+              74694
+            ],
+            "generation_tokens": 16,
+            "prompt_s": 0.021596207981929183,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "```\n{\n  \"answer\": \"Drift record routing\"\n}\n```",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.089528042008169,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.0683550420217216,
+            "elapsed_s": 0.089528042008169,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              7842,
+              12,
+              15189,
+              3534,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.021172999986447397,
+            "prompt_tokens": 25,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\n \"answer\": \"DR-31597\" }",
+          "score": {
+            "answer": "DR-31597",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.234
+        }
+      },
+      "artifact_id": "routing-drift@r1#tensor",
+      "doc_id": "routing-drift",
+      "phase": "final",
+      "question": "Which code routes the Drift record? Return only a JSON object with one string field named answer.",
+      "question_index": 0,
+      "revision": "r1"
+    },
+    {
+      "adapter_load_s": 0.0,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.111,
+          "metrics": {
+            "decode_s": 0.08198437496321276,
+            "elapsed_s": 0.11061187495943159,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              7842,
+              12,
+              15189,
+              3534,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.02862749999621883,
+            "prompt_tokens": 82,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\"answer\":\"DR-31597\"}",
+          "score": {
+            "answer": "DR-31597",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.098,
+          "metrics": {
+            "decode_s": 0.07543887395877391,
+            "elapsed_s": 0.09724079095758498,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              38,
+              1539,
+              81770,
+              37,
+              5494,
+              70921,
+              37,
+              1
+            ],
+            "generation_tokens": 15,
+            "prompt_s": 0.021801916998811066,
+            "prompt_tokens": 82,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\n  \"answer\": \"GUR PENFGB CFRF\"",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.08041320799384266,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06840233301045373,
+            "elapsed_s": 0.08041320799384266,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              7842,
+              12,
+              15189,
+              3534,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.01201087498338893,
+            "prompt_tokens": 22,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\n \"answer\": \"DR-31597\" }",
+          "score": {
+            "answer": "DR-31597",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.212
+        }
+      },
+      "artifact_id": "routing-drift@r1#tensor",
+      "doc_id": "routing-drift",
+      "phase": "final",
+      "question": "For Drift, give the recorded private routing code as a single-field JSON answer.",
+      "question_index": 1,
+      "revision": "r1"
+    },
+    {
+      "adapter_load_s": 0.44,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.127,
+          "metrics": {
+            "decode_s": 0.08209554199129343,
+            "elapsed_s": 0.1265445839962922,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              2152,
+              12,
+              19447,
+              868,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.04444904200499877,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\"answer\":\"CE-49615\"}",
+          "score": {
+            "answer": "CE-49615",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.097,
+          "metrics": {
+            "decode_s": 0.07549620803911239,
+            "elapsed_s": 0.09718270803568885,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              14196,
+              4077,
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              34,
+              34315,
+              3335,
+              30158,
+              702,
+              534,
+              74694
+            ],
+            "generation_tokens": 16,
+            "prompt_s": 0.021686499996576458,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "```\n{\n  \"answer\": \"Cedar record routing\"\n}\n```",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.02753008302533999,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.08085012499941513,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06816220795735717,
+            "elapsed_s": 0.08085012499941513,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              2152,
+              12,
+              19447,
+              845,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.012687917042057961,
+            "prompt_tokens": 25,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\n \"answer\": \"CE-49616\" }",
+          "score": {
+            "answer": "CE-49616",
+            "error": "wrong_answer",
+            "exact": false
+          },
+          "validation_elapsed_s": 0.252
+        }
+      },
+      "artifact_id": "routing-cedar@r2#tensor",
+      "doc_id": "routing-cedar",
+      "phase": "final",
+      "question": "Which code routes the Cedar record now? Return only a JSON object with one string field named answer.",
+      "question_index": 0,
+      "revision": "r2"
+    },
+    {
+      "adapter_load_s": 0.0,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.111,
+          "metrics": {
+            "decode_s": 0.08329658396542072,
+            "elapsed_s": 0.11103437497513369,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              2152,
+              12,
+              19447,
+              868,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.027737791009712964,
+            "prompt_tokens": 83,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\"answer\":\"CE-49615\"}",
+          "score": {
+            "answer": "CE-49615",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.103,
+          "metrics": {
+            "decode_s": 0.08102162601426244,
+            "elapsed_s": 0.10272608400555328,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              34,
+              34315,
+              596,
+              1510,
+              3335,
+              374,
+              539,
+              17880,
+              2561,
+              10246,
+              92
+            ],
+            "generation_tokens": 18,
+            "prompt_s": 0.021704457991290838,
+            "prompt_tokens": 83,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\n  \"answer\": \"Cedar's current record is not publicly available.\"\n}",
+          "score": {
+            "answer": "Cedar's current record is not publicly available.",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.07863037497736514,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.065823916986119,
+            "elapsed_s": 0.07863037497736514,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              2152,
+              12,
+              19447,
+              868,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.012806457991246134,
+            "prompt_tokens": 23,
+            "reported_peak_memory_gb": 1.664969648
+          },
+          "raw": "{\n \"answer\": \"CE-49615\" }",
+          "score": {
+            "answer": "CE-49615",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.208
+        }
+      },
+      "artifact_id": "routing-cedar@r2#tensor",
+      "doc_id": "routing-cedar",
+      "phase": "final",
+      "question": "For Cedar's current record, give the private routing code as a single-field JSON answer.",
+      "question_index": 1,
+      "revision": "r2"
+    },
+    {
+      "adapter_load_s": 0.447,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.11,
+          "metrics": {
+            "decode_s": 0.08046037500025705,
+            "elapsed_s": 0.10997683298774064,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              18326,
+              12,
+              23493,
+              1187,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.02951645798748359,
+            "prompt_tokens": 87,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\"answer\":\"LA-58324\"}",
+          "score": {
+            "answer": "LA-58324",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.107,
+          "metrics": {
+            "decode_s": 0.08477450005011633,
+            "elapsed_s": 0.10664000001270324,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              791,
+              1510,
+              445,
+              1132,
+              11810,
+              17623,
+              311,
+              11810,
+              1396,
+              220,
+              4513,
+              19,
+              1210,
+              335
+            ],
+            "generation_tokens": 20,
+            "prompt_s": 0.02186549996258691,
+            "prompt_tokens": 87,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n \"answer\": \"The current Larch permit belongs to permit number 1234.\" }",
+          "score": {
+            "answer": "The current Larch permit belongs to permit number 1234.",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.02809608296956867,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.08059679198777303,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.0684124999679625,
+            "elapsed_s": 0.08059679198777303,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              18326,
+              12,
+              23493,
+              1187,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.01218429201981053,
+            "prompt_tokens": 27,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n \"answer\": \"LA-58324\" }",
+          "score": {
+            "answer": "LA-58324",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.241
+        }
+      },
+      "artifact_id": "permit-larch@r2#tensor",
+      "doc_id": "permit-larch",
+      "phase": "final",
+      "question": "Which key belongs to the current Larch permit? Return only a JSON object with one string field named answer.",
+      "question_index": 0,
+      "revision": "r2"
+    },
+    {
+      "adapter_load_s": 0.0,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.109,
+          "metrics": {
+            "decode_s": 0.07903583301231265,
+            "elapsed_s": 0.10822758299764246,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              18326,
+              12,
+              23493,
+              1187,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.029191749985329807,
+            "prompt_tokens": 84,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\"answer\":\"LA-58324\"}",
+          "score": {
+            "answer": "LA-58324",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.099,
+          "metrics": {
+            "decode_s": 0.07662225095555186,
+            "elapsed_s": 0.09863583400147036,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              2039,
+              3173,
+              62,
+              4513,
+              10961,
+              16474,
+              15,
+              702,
+              92
+            ],
+            "generation_tokens": 16,
+            "prompt_s": 0.022013583045918494,
+            "prompt_tokens": 84,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n  \"answer\": \"private_key_1234567890\"\n}",
+          "score": {
+            "answer": "private_key_1234567890",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.08279429096728563,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.07021633192198351,
+            "elapsed_s": 0.08279429096728563,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              18326,
+              12,
+              23493,
+              1187,
+              702,
+              92
+            ],
+            "generation_tokens": 13,
+            "prompt_s": 0.012577959045302123,
+            "prompt_tokens": 24,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n  \"answer\": \"LA-58324\"\n}",
+          "score": {
+            "answer": "LA-58324",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.213
+        }
+      },
+      "artifact_id": "permit-larch@r2#tensor",
+      "doc_id": "permit-larch",
+      "phase": "final",
+      "question": "For Larch's current record, give the private permit key as a single-field JSON answer.",
+      "question_index": 1,
+      "revision": "r2"
+    },
+    {
+      "adapter_load_s": 0.448,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.112,
+          "metrics": {
+            "decode_s": 0.08264600002439693,
+            "elapsed_s": 0.11134945799130946,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              1971,
+              12,
+              25560,
+              3076,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.028703457966912538,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\"answer\":\"OL-74269\"}",
+          "score": {
+            "answer": "OL-74269",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.088,
+          "metrics": {
+            "decode_s": 0.06582300004083663,
+            "elapsed_s": 0.0875751250423491,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              46,
+              25859,
+              11810,
+              1,
+              335
+            ],
+            "generation_tokens": 11,
+            "prompt_s": 0.021752125001512468,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n \"answer\": \"Olive permit\" }",
+          "score": {
+            "answer": "Olive permit",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0312410420156084,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.07899825001368299,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06693670799722895,
+            "elapsed_s": 0.07899825001368299,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              1971,
+              12,
+              25560,
+              3076,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.012061542016454041,
+            "prompt_tokens": 25,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n \"answer\": \"OL-74269\" }",
+          "score": {
+            "answer": "OL-74269",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.243
+        }
+      },
+      "artifact_id": "permit-olive@r1#tensor",
+      "doc_id": "permit-olive",
+      "phase": "final",
+      "question": "Which key belongs to the Olive permit? Return only a JSON object with one string field named answer.",
+      "question_index": 0,
+      "revision": "r1"
+    },
+    {
+      "adapter_load_s": 0.0,
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.109,
+          "metrics": {
+            "decode_s": 0.08090304106008261,
+            "elapsed_s": 0.10846583300735801,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              1971,
+              12,
+              25560,
+              3076,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.0275627919472754,
+            "prompt_tokens": 81,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\"answer\":\"OL-74269\"}",
+          "score": {
+            "answer": "OL-74269",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.097,
+          "metrics": {
+            "decode_s": 0.07518241700017825,
+            "elapsed_s": 0.09649820800404996,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              46,
+              25859,
+              596,
+              12715,
+              879,
+              11810,
+              1401,
+              702,
+              92
+            ],
+            "generation_tokens": 16,
+            "prompt_s": 0.02131579100387171,
+            "prompt_tokens": 81,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n  \"answer\": \"Olive's recorded private permit key\"\n}",
+          "score": {
+            "answer": "Olive's recorded private permit key",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.09449791599763557,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06877379101933911,
+            "elapsed_s": 0.09449791599763557,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              1971,
+              12,
+              25560,
+              3076,
+              1,
+              457
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.02572412497829646,
+            "prompt_tokens": 21,
+            "reported_peak_memory_gb": 1.666313168
+          },
+          "raw": "{\n \"answer\": \"OL-74269\" }\n",
+          "score": {
+            "answer": "OL-74269",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.227
+        }
+      },
+      "artifact_id": "permit-olive@r1#tensor",
+      "doc_id": "permit-olive",
+      "phase": "final",
+      "question": "For Olive, give the recorded private permit key as a single-field JSON answer.",
+      "question_index": 1,
+      "revision": "r1"
+    }
+  ]
+}

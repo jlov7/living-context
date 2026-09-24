@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "calibration-nacre-v1",
+      "split": "calibration",
+      "doc_id": "nacre-observatory",
+      "revision": "v1",
+      "content": "Nacre Observatory calibration record. Its archive token is CAL-4829-ZQ. Its duty color is saffron.",
+      "training_qa": [
+        {"question": "State Nacre Observatory's archive token.", "answer": "CAL-4829-ZQ"},
+        {"question": "State Nacre Observatory's duty color.", "answer": "saffron"}
+      ]
+    },
+    {
+      "source_id": "calibration-nacre-v2",
+      "split": "calibration",
+      "doc_id": "nacre-observatory",
+      "revision": "v2",
+      "content": "Nacre Observatory revised calibration record. Its archive token is CAL-4829-ZQ. Its duty color is indigo.",
+      "training_qa": [
+        {"question": "State Nacre Observatory's archive token after revision.", "answer": "CAL-4829-ZQ"},
+        {"question": "State Nacre Observatory's revised duty color.", "answer": "indigo"}
+      ]
+    },
+    {
+      "source_id": "development-vela-v1",
+      "split": "development",
+      "doc_id": "vela-transit-node",
+      "revision": "v1",
+      "content": "Vela Transit Node reference record. Its dispatch code is DEV-7314-KT. Its intake marker is cobalt.",
+      "training_qa": [
+        {"question": "State Vela Transit Node's routing credential.", "answer": "DEV-7314-KT"},
+        {"question": "Which token is assigned to Vela dispatch?", "answer": "DEV-7314-KT"},
+        {"question": "State the intake marker in the Vela record.", "answer": "cobalt"}
+      ]
+    },
+    {
+      "source_id": "final-orchid-v1",
+      "split": "final",
+      "doc_id": "orchid-relay",
+      "revision": "v1",
+      "content": "Orchid Relay reference record. Its access code is FIN-2846-QM. Its lane marker is silver.",
+      "training_qa": [
+        {"question": "State Orchid Relay's assigned credential.", "answer": "FIN-2846-QM"},
+        {"question": "Which token is assigned to Orchid access?", "answer": "FIN-2846-QM"}
+      ]
+    },
+    {
+      "source_id": "final-orchid-v2",
+      "split": "final",
+      "doc_id": "orchid-relay",
+      "revision": "v2",
+      "content": "Orchid Relay revised reference record. Its access code is FIN-9073-LX. Its lane marker is silver.",
+      "training_qa": [
+        {"question": "State Orchid Relay's revised credential.", "answer": "FIN-9073-LX"},
+        {"question": "Which token is assigned to Orchid after revision?", "answer": "FIN-9073-LX"}
+      ]
+    },
+    {
+      "source_id": "final-juniper-v1",
+      "split": "final",
+      "doc_id": "juniper-depot",
+      "revision": "v1",
+      "content": "Juniper Depot reference record. Its seal code is FIN-6318-RP. Its bay marker is amber.",
+      "training_qa": [
+        {"question": "State Juniper Depot's assigned seal credential.", "answer": "FIN-6318-RP"},
+        {"question": "Which token is assigned to the Juniper seal?", "answer": "FIN-6318-RP"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "allowed_payload_fields": [
+    "cache_logit_atol",
+    "invalidation_source",
+    "max_output_tokens",
+    "model_digest",
+    "model_files",
+    "output_path",
+    "protocol_sha256",
+    "questions",
+    "retrieval_limit",
+    "source",
+    "tokenizer_digest"
+  ],
+  "boundary": "serialized process-input separation; this is not an OS filesystem sandbox",
+  "contains_evaluation_questions": true,
+  "contains_heldout_labels": false,
+  "payload_sha256": "016b062a123d6024e8281a12b71efda1037f63e13fe86f8ae7134145ead5073b",
+  "schema_version": 1,
+  "worker": "_calibration-worker"
+}

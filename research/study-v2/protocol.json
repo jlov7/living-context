@@ -1,0 +1,144 @@
+{
+  "claim_limits": [
+    "synthetic template-family only",
+    "no model or prefix tensor redistribution",
+    "no dependency co-training advantage tested",
+    "no population generalization or cost advantage inferred"
+  ],
+  "data": {
+    "labels": "research/study-v2/labels.json",
+    "questions": "research/study-v2/questions.json",
+    "sources": "research/study-v2/sources.json"
+  },
+  "gates": {
+    "budget": "all sibling attempt supervisor elapsed plus declared diagnostic model calls count toward cumulative 5400 seconds",
+    "calibration": "both fresh and cached exact on two separate calibration questions; cached/fresh next-token argmax and full token IDs match, max absolute float32-cast logit delta <=0.1; revision invalidates old cache",
+    "development": "bare 0/2, cached text 2/2, at least two of three prefix seeds exact on both held-out paraphrases",
+    "final": "only after development pass; all initial/revised rows retained and scored without tuning",
+    "selection": "among passing objectives: total exact development answers descending, measured training plus serving time ascending, objective identifier ascending"
+  },
+  "generation": {
+    "decoder": "greedy",
+    "format": "tokenizer_chat_template",
+    "max_output_tokens": 32,
+    "output_contract": "single JSON object with exactly one string answer field"
+  },
+  "inputs": {
+    "research/study-v2/labels.json": "6a763a3cb2d6bcfe8f1e981b4ce6c841350c7216a16da69bf444646b4a3b15d1",
+    "research/study-v2/questions.json": "5d6fb63717ae9322ee7926196cb6a3a05fbc50d9c67bcd73db1a1eb50441ca25",
+    "research/study-v2/sources.json": "9be5538d3d41d72644a7c76d365e413e0068b162accc3eefcdeeece62b2a1ce3"
+  },
+  "limits": {
+    "calibration_elapsed_s": 300,
+    "development_elapsed_s": 1200,
+    "final_elapsed_s": 5400,
+    "mlx_active_bytes": 2147483648,
+    "process_rss_bytes": 8589934592,
+    "total_model_worker_elapsed_s": 5400
+  },
+  "model": {
+    "files": {
+      "config.json": {
+        "bytes": 1121,
+        "sha256": "73bfb89e5a43c76ada2d7a9609862139578a71cfbb43e30bf5d4571026dd3741"
+      },
+      "model.safetensors": {
+        "bytes": 695283921,
+        "sha256": "35e396644bca888eec399f9c0f843ec7fa78b8f8c5e06841661be62b4edf96dd"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 26159,
+        "sha256": "437f66af94c5f921f4fbe465341bdee4dc6a37ab8f29bbb12fd7caad577dedd7"
+      },
+      "special_tokens_map.json": {
+        "bytes": 296,
+        "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+      },
+      "tokenizer.json": {
+        "bytes": 17209920,
+        "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+      },
+      "tokenizer_config.json": {
+        "bytes": 54558,
+        "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+      }
+    },
+    "license": "Meta Llama 3.2 Community License",
+    "repository": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+    "snapshot_revision": "08231374eeacb049a0eade7922910865b8fce912"
+  },
+  "phases": {
+    "calibration": {
+      "invalidation_source_id": "calibration-nacre-v2",
+      "source_id": "calibration-nacre-v1"
+    },
+    "development": {
+      "source_id": "development-vela-v1"
+    },
+    "final": {
+      "initial_source_ids": [
+        "final-orchid-v1",
+        "final-juniper-v1"
+      ],
+      "revised_source_ids": [
+        "final-orchid-v2",
+        "final-juniper-v1"
+      ],
+      "training_source_ids": [
+        "final-orchid-v1",
+        "final-orchid-v2",
+        "final-juniper-v1"
+      ]
+    }
+  },
+  "retrieval": {
+    "cache_logit_atol": 0.1,
+    "cache_parity": "exact next-token argmax and full generated token-id sequence; float16 logits compared after float32 cast",
+    "cache_policy": "clone per query and invalidate on revision",
+    "limit": 2,
+    "method": "query lexical overlap on active document id and content"
+  },
+  "runtime": {
+    "machine": "arm64",
+    "packages": {
+      "huggingface-hub": "1.32.0",
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "psutil": "7.1.0",
+      "transformers": "5.17.0"
+    },
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15"
+  },
+  "schema_version": 1,
+  "source_commit": "a2a7ed3b6a7bb795bef4082639cf8319354e4526",
+  "source_files": {
+    "experiments/replacement_study_v2.py": "c11ee1a850b6d0c7ba289c665ca4f4a078372166ce7491b58b8540173a82b5fb",
+    "pyproject.toml": "ae53f363efb66f9e2fe4ab18f7dfa82f8a222817a1255837fad10e60d1037f9e",
+    "research/study-v2/AMENDMENT-1.md": "019e11ad9aecc7a48fb05208775b25fd98f6ea73f6aa8e96c1713ffa39ae3ce2",
+    "research/study-v2/PROTOCOL.md": "7ca423c921557f583f1e0d7fea3153f4ecbe4d04598e1c5130e872fea4aa9cf4",
+    "research/study-v2/THIRD_PARTY_MODEL.md": "c9b6744c747ee95e017dc6eb5a400b73a6eb86ac5ca4ca8f71a5e9bd941e63ef",
+    "src/living_context/replacement_study.py": "618c887a04d43d795cbcb70b35998dfb62ea0ad708affd20441f2df2ae366bcd",
+    "tests/test_replacement_study.py": "56ac9f6e90c641d5f79aeb1acdea829215bff78f7dcd42e426894b6693d89505",
+    "tests/test_replacement_study_mlx.py": "00ba9454ad35d06f8e4021ee5aeb1231ba363dac95b25e8b03ba40ff13298bde",
+    "uv.lock": "c2935ab4fb0266e1248c60be9e832012306f61e35feb439615bfcc22ed240650"
+  },
+  "state": "FROZEN",
+  "study": "living-context-replacement-v2",
+  "training": {
+    "base_weights": "frozen",
+    "learning_rate": 0.01,
+    "objectives": [
+      "document_reconstruction",
+      "source_qa"
+    ],
+    "optimizer": "Adam",
+    "prefix_length": 64,
+    "seeds": [
+      7,
+      11,
+      19
+    ],
+    "steps": 400
+  }
+}

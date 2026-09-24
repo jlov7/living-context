@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "study": "lc-study-v3-qlora",
+  "source_commit": "2b94ce67830da4ff9ffd98095dc48b3a01869f96",
+  "files": {
+    "control-raw.json": "7a7925246d110c3f30416a9286bdbe3277fb8d072894bc14d6d503e4643499f7",
+    "pilot-raw.json": "d07059c9aa233e39690fc0b05f08775978bf5761ae632e41df851378779d9705",
+    "preflight.json": "2643583bd03dccdc081325370571006a8704da8ae41846564cfbe7de97171ff5",
+    "scores.json": "7801f32a21c42d600cec28fbb5d0cb52a8947eb939694731d0934372104b5412",
+    "status.json": "f7cfd038114e6386528e9db8995693e90edf76aeecc6454beb96e6488af94221",
+    "worker-receipts.json": "8440c64b0fb8c26e71af0869a24db2c1dbd04f390ee4a1ba99efbcb5e3a6fd21"
+  }
+}

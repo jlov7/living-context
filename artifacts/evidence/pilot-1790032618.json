@@ -1,0 +1,160 @@
+{
+  "protocol": {
+    "name": "living-context-pilot-v1",
+    "status": "FROZEN",
+    "frozen_at": "2026-09-21"
+  },
+  "machine": {
+    "chip": "Apple-M4-Max",
+    "ram_gb": 48,
+    "backend": "MLX",
+    "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+    "model_quant": "4bit",
+    "model_frozen": true
+  },
+  "deviations": [],
+  "attempts": 9,
+  "arm_1_correct": 9,
+  "arm_4_correct": 6,
+  "per_family": {
+    "hydraulics": {
+      "arm_1": 3,
+      "arm_4": 3,
+      "n": 3
+    },
+    "compliance": {
+      "arm_1": 3,
+      "arm_4": 3,
+      "n": 3
+    },
+    "supply": {
+      "arm_1": 3,
+      "arm_4": 0,
+      "n": 3
+    }
+  },
+  "lifecycle_cost_physical": {
+    "arm_1_serving_total_s": 1.682,
+    "arm_4_refresh_total_s": 224.68,
+    "peak_mem_bytes": 742914536
+  },
+  "rows": [
+    {
+      "question": "What is the volume of the T-4 tank?",
+      "answer": "45",
+      "family": "hydraulics",
+      "repeat": 1,
+      "arm_1_answer": "45 L\n\nNote: The question is asking for the volume of the tank, not the tank itse",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.184,
+      "arm_4_answer": "45454545454545454545454545454545",
+      "arm_4_correct": true,
+      "arm_4_refresh_s": 26.75,
+      "arm_4_peak_mem_bytes": 741980608
+    },
+    {
+      "question": "What is the volume of the T-4 tank?",
+      "answer": "45",
+      "family": "hydraulics",
+      "repeat": 2,
+      "arm_1_answer": "45 L\n\nNote: The question is asking for the volume of the tank, not the tank itse",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.188,
+      "arm_4_answer": "454545454545454545454545defdefdefdef",
+      "arm_4_correct": true,
+      "arm_4_refresh_s": 25.96,
+      "arm_4_peak_mem_bytes": 742504896
+    },
+    {
+      "question": "What is the volume of the T-4 tank?",
+      "answer": "45",
+      "family": "hydraulics",
+      "repeat": 3,
+      "arm_1_answer": "45 L\n\nNote: The question is asking for the volume of the tank, not the tank itse",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.189,
+      "arm_4_answer": "defdefdefdef454545454545454545454545",
+      "arm_4_correct": true,
+      "arm_4_refresh_s": 25.719,
+      "arm_4_peak_mem_bytes": 742504888
+    },
+    {
+      "question": "What max fill pressure must the label state?",
+      "answer": "200",
+      "family": "compliance",
+      "repeat": 1,
+      "arm_1_answer": "200 bar.\n\nAnswer: Correct.\n\nAnswer: 200 bar.\n\nAnswer: 200 bar.\n\nAnswer: 200 bar.",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.184,
+      "arm_4_answer": "of of of of of of of of of of of of of of of200",
+      "arm_4_correct": true,
+      "arm_4_refresh_s": 21.592,
+      "arm_4_peak_mem_bytes": 741767542
+    },
+    {
+      "question": "What max fill pressure must the label state?",
+      "answer": "200",
+      "family": "compliance",
+      "repeat": 2,
+      "arm_1_answer": "200 bar.\n\nAnswer: Correct.\n\nAnswer: 200 bar.\n\nAnswer: 200 bar.\n\nAnswer: 200 bar.",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.187,
+      "arm_4_answer": "of200200200200200200200200200200200200200200200",
+      "arm_4_correct": true,
+      "arm_4_refresh_s": 21.721,
+      "arm_4_peak_mem_bytes": 741767518
+    },
+    {
+      "question": "What max fill pressure must the label state?",
+      "answer": "200",
+      "family": "compliance",
+      "repeat": 3,
+      "arm_1_answer": "200 bar.\n\nAnswer: Correct.\n\nAnswer: 200 bar.\n\nAnswer: 200 bar.\n\nAnswer: 200 bar.",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.181,
+      "arm_4_answer": "200200200200200200200200200200200200200200200200",
+      "arm_4_correct": true,
+      "arm_4_refresh_s": 21.853,
+      "arm_4_peak_mem_bytes": 741767518
+    },
+    {
+      "question": "Which alloy does spec SP-1 require?",
+      "answer": "AL-7075",
+      "family": "supply",
+      "repeat": 1,
+      "arm_1_answer": "AL-7075.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAn",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.186,
+      "arm_4_answer": "of of of of of of5 of5 of of of of of of of",
+      "arm_4_correct": false,
+      "arm_4_refresh_s": 26.908,
+      "arm_4_peak_mem_bytes": 742914536
+    },
+    {
+      "question": "Which alloy does spec SP-1 require?",
+      "answer": "AL-7075",
+      "family": "supply",
+      "repeat": 2,
+      "arm_1_answer": "AL-7075.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAn",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.194,
+      "arm_4_answer": "---- of- of-201----1- of",
+      "arm_4_correct": false,
+      "arm_4_refresh_s": 27.041,
+      "arm_4_peak_mem_bytes": 742914536
+    },
+    {
+      "question": "Which alloy does spec SP-1 require?",
+      "answer": "AL-7075",
+      "family": "supply",
+      "repeat": 3,
+      "arm_1_answer": "AL-7075.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAn",
+      "arm_1_correct": true,
+      "arm_1_serving_s": 0.189,
+      "arm_4_answer": "7075 public- private-707-7075-707-707-707",
+      "arm_4_correct": false,
+      "arm_4_refresh_s": 27.136,
+      "arm_4_peak_mem_bytes": 742914528
+    }
+  ]
+}

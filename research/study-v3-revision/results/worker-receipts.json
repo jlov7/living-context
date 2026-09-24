@@ -1,0 +1,88 @@
+[
+  {
+    "doc_id": "routing-cedar",
+    "elapsed_s": 6.833,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1102446592,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r1",
+    "status": "completed"
+  },
+  {
+    "doc_id": "routing-drift",
+    "elapsed_s": 6.818,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1105690624,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r1",
+    "status": "completed"
+  },
+  {
+    "doc_id": "permit-larch",
+    "elapsed_s": 6.856,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1100431360,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r1",
+    "status": "completed"
+  },
+  {
+    "doc_id": "permit-mesa",
+    "elapsed_s": 6.875,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1105100800,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r1",
+    "status": "completed"
+  },
+  {
+    "doc_id": "routing-cedar",
+    "elapsed_s": 6.86,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1103609856,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r2",
+    "status": "completed"
+  },
+  {
+    "doc_id": "permit-larch",
+    "elapsed_s": 6.862,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1103101952,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r2",
+    "status": "completed"
+  },
+  {
+    "doc_id": "permit-olive",
+    "elapsed_s": 6.864,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1110032384,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "revision": "r1",
+    "status": "completed"
+  },
+  {
+    "elapsed_s": 13.66,
+    "exit_code": 0,
+    "memory_report_matches": 1,
+    "peak_rss_bytes": 2663972864,
+    "phase": "revision-inference",
+    "reported_mlx_peak_gb": 1.682,
+    "status": "completed"
+  }
+]

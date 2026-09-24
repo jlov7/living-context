@@ -1,0 +1,175 @@
+{
+  "model_files_after": {
+    "config.json": {
+      "bytes": 1121,
+      "sha256": "73bfb89e5a43c76ada2d7a9609862139578a71cfbb43e30bf5d4571026dd3741"
+    },
+    "model.safetensors": {
+      "bytes": 695283921,
+      "sha256": "35e396644bca888eec399f9c0f843ec7fa78b8f8c5e06841661be62b4edf96dd"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 26159,
+      "sha256": "437f66af94c5f921f4fbe465341bdee4dc6a37ab8f29bbb12fd7caad577dedd7"
+    },
+    "special_tokens_map.json": {
+      "bytes": 296,
+      "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+    },
+    "tokenizer.json": {
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    "tokenizer_config.json": {
+      "bytes": 54558,
+      "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+    }
+  },
+  "model_files_before": {
+    "config.json": {
+      "bytes": 1121,
+      "sha256": "73bfb89e5a43c76ada2d7a9609862139578a71cfbb43e30bf5d4571026dd3741"
+    },
+    "model.safetensors": {
+      "bytes": 695283921,
+      "sha256": "35e396644bca888eec399f9c0f843ec7fa78b8f8c5e06841661be62b4edf96dd"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 26159,
+      "sha256": "437f66af94c5f921f4fbe465341bdee4dc6a37ab8f29bbb12fd7caad577dedd7"
+    },
+    "special_tokens_map.json": {
+      "bytes": 296,
+      "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+    },
+    "tokenizer.json": {
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    "tokenizer_config.json": {
+      "bytes": 54558,
+      "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+    }
+  },
+  "model_load_s": 0.505154832964763,
+  "phase": "development",
+  "protocol_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "rows": [
+    {
+      "artifact": "prefix-development-vela-v1-document_reconstruction-seed-7.safetensors",
+      "artifact_bytes": 524483,
+      "artifact_sha256": "f641dec6f58507a62ac5a38fd74ebe9bb70b4d9317b8338e9a4e5cc1c61716ef",
+      "doc_id": "vela-transit-node",
+      "final_loss": 0.00047749662189744413,
+      "objective": "document_reconstruction",
+      "prefix_shape": [
+        64,
+        2048
+      ],
+      "revision": "v1",
+      "sampled_mlx_active_peak_bytes": 700291148,
+      "sampled_process_rss_peak_bytes": 1067073536,
+      "seed": 7,
+      "source_id": "development-vela-v1",
+      "steps_completed": 400,
+      "training_s": 45.5051011670148
+    },
+    {
+      "artifact": "prefix-development-vela-v1-document_reconstruction-seed-11.safetensors",
+      "artifact_bytes": 524484,
+      "artifact_sha256": "9e1ff908f9860b3eba98af96b376ab720a9fc80d74835e83273c36cc88ce0b24",
+      "doc_id": "vela-transit-node",
+      "final_loss": 0.29857978224754333,
+      "objective": "document_reconstruction",
+      "prefix_shape": [
+        64,
+        2048
+      ],
+      "revision": "v1",
+      "sampled_mlx_active_peak_bytes": 700815436,
+      "sampled_process_rss_peak_bytes": 815333376,
+      "seed": 11,
+      "source_id": "development-vela-v1",
+      "steps_completed": 400,
+      "training_s": 51.178617000055965
+    },
+    {
+      "artifact": "prefix-development-vela-v1-document_reconstruction-seed-19.safetensors",
+      "artifact_bytes": 524484,
+      "artifact_sha256": "d569636852d4291fa3c7fde397f2773cd41745787c79b5786a66b9b933aebef2",
+      "doc_id": "vela-transit-node",
+      "final_loss": 7.375319004058838,
+      "objective": "document_reconstruction",
+      "prefix_shape": [
+        64,
+        2048
+      ],
+      "revision": "v1",
+      "sampled_mlx_active_peak_bytes": 700815436,
+      "sampled_process_rss_peak_bytes": 816463872,
+      "seed": 19,
+      "source_id": "development-vela-v1",
+      "steps_completed": 400,
+      "training_s": 69.08841108402703
+    },
+    {
+      "artifact": "prefix-development-vela-v1-source_qa-seed-7.safetensors",
+      "artifact_bytes": 524469,
+      "artifact_sha256": "748429b7b962a30210cca19a693cb4b4b1c4bf802baf0cf0853694f8833949e1",
+      "doc_id": "vela-transit-node",
+      "final_loss": 8.502422332763672,
+      "objective": "source_qa",
+      "prefix_shape": [
+        64,
+        2048
+      ],
+      "revision": "v1",
+      "sampled_mlx_active_peak_bytes": 700667980,
+      "sampled_process_rss_peak_bytes": 816840704,
+      "seed": 7,
+      "source_id": "development-vela-v1",
+      "steps_completed": 400,
+      "training_s": 57.89686499995878
+    },
+    {
+      "artifact": "prefix-development-vela-v1-source_qa-seed-11.safetensors",
+      "artifact_bytes": 524470,
+      "artifact_sha256": "7f478c63d2ee97dd6c63a34424aeaaf2206c466324654c9f5d5bab9c7c7622be",
+      "doc_id": "vela-transit-node",
+      "final_loss": 0.0003403120208531618,
+      "objective": "source_qa",
+      "prefix_shape": [
+        64,
+        2048
+      ],
+      "revision": "v1",
+      "sampled_mlx_active_peak_bytes": 700667980,
+      "sampled_process_rss_peak_bytes": 816594944,
+      "seed": 11,
+      "source_id": "development-vela-v1",
+      "steps_completed": 400,
+      "training_s": 56.74026887502987
+    },
+    {
+      "artifact": "prefix-development-vela-v1-source_qa-seed-19.safetensors",
+      "artifact_bytes": 524470,
+      "artifact_sha256": "cf63dbd54d7bf6ab18429b93c0ca14bf8b8e4e45adf23ce2336cc882bcca18dd",
+      "doc_id": "vela-transit-node",
+      "final_loss": 0.09425310045480728,
+      "objective": "source_qa",
+      "prefix_shape": [
+        64,
+        2048
+      ],
+      "revision": "v1",
+      "sampled_mlx_active_peak_bytes": 700667980,
+      "sampled_process_rss_peak_bytes": 754778112,
+      "seed": 19,
+      "source_id": "development-vela-v1",
+      "steps_completed": 400,
+      "training_s": 52.84276491700439
+    }
+  ],
+  "schema_version": 1,
+  "snapshot": null
+}

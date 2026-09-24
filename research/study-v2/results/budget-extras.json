@@ -1,0 +1,30 @@
+{
+  "basis": "observed local exec wall time for calibration-only model diagnostics outside supervisor; conservative cumulative charge",
+  "model_calls": [
+    {
+      "elapsed_s": 2.439824167,
+      "name": "first-logit-difference-diagnostic"
+    },
+    {
+      "elapsed_s": 2.398591917,
+      "name": "two-question-output-diagnostic"
+    },
+    {
+      "elapsed_s": 2.909870708,
+      "name": "two-question-token-parity-diagnostic"
+    },
+    {
+      "elapsed_s": 1.817503125,
+      "name": "raw-dtype-diagnostic"
+    },
+    {
+      "elapsed_s": 2.584089708,
+      "name": "post-gate-training-question-check"
+    },
+    {
+      "elapsed_s": 2.989871208,
+      "name": "post-gate-sealed-forward-alignment-diagnostic"
+    }
+  ],
+  "schema_version": 1
+}

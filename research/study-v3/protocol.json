@@ -1,0 +1,19 @@
+{
+  "study": "lc-study-v3-qlora",
+  "state": "AMENDED_AND_FROZEN_BEFORE_MODEL_OUTCOME",
+  "control_iters": 200,
+  "pilot_iters": 100,
+  "model_snapshot_revision": "08231374eeacb049a0eade7922910865b8fce912",
+  "installed_lora_sha256": "3f188fc6aef80efcb9938678af0548588122ed25845053cc555aece0ad2da5e7",
+  "source_sha256": {
+    "experiments/study_v3_qlora.py": "e0c08b9e9eaa007924208bd38e137c654872f673b7653916213878f7065fb3b3",
+    "tests/test_study_v3_supervisor.py": "00744a006f2d06c90e136582a7059dbd57ed5acecb0baf8ef2270feee79c3bdd",
+    "research/study-v3/AMENDMENT-1.md": "ddd6cceb1a3e7a4b7bd97dfa29293a49397d88a0b83501e28590a1fbb8b32650",
+    "experiments/replacement_study_v2.py": "c11ee1a850b6d0c7ba289c665ca4f4a078372166ce7491b58b8540173a82b5fb",
+    "src/living_context/replacement_study.py": "618c887a04d43d795cbcb70b35998dfb62ea0ad708affd20441f2df2ae366bcd",
+    "research/study-v3/training.json": "130375a6e0c58105460f27ee84b2956ffd80b5d92f70fa497587e0c564199d7f",
+    "research/study-v3/evaluation.json": "09170194a93b98780c165b291eb4620bf5f8f658fb4531b68d47da366d3f005f",
+    "research/study-v3/lora.yaml": "4359571edc8e8515fc3ab18511574cf81082ace92d2dba4346c29bb4f9ecf1a9",
+    "research/study-v2/protocol.json": "ecdb4e7c497a903550401a31813167c6fd2b68c1d392e1bd1b40394a5d2377bd"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "effective_timeout_s": 1200,
+  "elapsed_s": 335.68301974999486,
+  "prior_cumulative_model_worker_elapsed_s": 16.91951650099865,
+  "returncode": 0,
+  "rss_sample_interval_s": 0.25,
+  "sampled_process_peak_rss_bytes": 1077313536,
+  "schema_version": 1,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_tail": "",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_tail": "",
+  "stop_reason": null,
+  "total_model_worker_budget_s": 5400,
+  "worker": "_train-worker"
+}

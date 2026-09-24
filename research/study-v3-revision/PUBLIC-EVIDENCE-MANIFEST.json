@@ -1,0 +1,17 @@
+{
+  "files": {
+    "admission-final.json": "b0e7da75bba5bcc1b17e4112b93b484d7f5a4d4cf918b8151c3be61967d5c28d",
+    "admission-initial.json": "6e6ccae9b07af576393b6839c4a59d055597c11cf61a66476327487a74fc25f1",
+    "final-raw.json": "46a7d490e84ddc37309df4caa42d6867885bc45c3ed9ae7d7dac2a93d4359f58",
+    "initial-raw.json": "98d278a357593fe56129b72ff610900a2404b1c3547a4933c0c735d7097fa1e7",
+    "lifecycle.json": "3b747b1ac34778eaedbd21f816a4c99c88bce6ed2d9d72bd7f33e05eff3c775e",
+    "preflight.json": "a7b900ff294451a013f6420c40e6bb839b68c7ff3eedae4119d0fd8b1874ce4f",
+    "scores.json": "a68ae315b2ea6a7165f6051d2431191047d0bd9cc588a80716d42869dcb4fbde",
+    "stale-controls-raw.json": "d05970c3eacc89888eef73428e9a52cb8e613058704a27692099bb13e7b9871e",
+    "status.json": "b87803ead1701900294c2353b06c9ada2e12437dc85a8f85cd68da924ba10d71",
+    "worker-receipts.json": "26f3c1014b9428c7f98d36b6978622e8b9bc063bd9bae9c96ab344b3ba0accc5"
+  },
+  "result_sha256": "4d87ed57c054c49b4c378b994b48f63b85419b9f914ea80fa07264218ab7b746",
+  "scope": "synthetic saved-output replay, no adapter/model redistribution",
+  "study": "lc-study-v3-revision"
+}

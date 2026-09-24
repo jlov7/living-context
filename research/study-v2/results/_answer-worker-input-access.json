@@ -1,0 +1,25 @@
+{
+  "allowed_payload_fields": [
+    "artifact_dir",
+    "artifacts",
+    "cache_logit_atol",
+    "max_output_tokens",
+    "model_digest",
+    "model_files",
+    "output_path",
+    "phase",
+    "protocol_sha256",
+    "questions",
+    "retrieval_limit",
+    "snapshot",
+    "sources",
+    "tokenizer_digest",
+    "training_receipt_sha256"
+  ],
+  "boundary": "serialized process-input separation; this is not an OS filesystem sandbox",
+  "contains_evaluation_questions": true,
+  "contains_heldout_labels": false,
+  "payload_sha256": "0c5943409ca51a80d5c8de4377cc3921d8facd92957d0c50b0d5cf496296d4b4",
+  "schema_version": 1,
+  "worker": "_answer-worker"
+}

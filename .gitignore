@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# artifacts: keep evidence, ignore bulky/regenerable
+artifacts/**/*.bin
+artifacts/**/*.safetensors
+artifacts/**/*.pt
+artifacts/**/*.log
+!artifacts/**/.gitkeep
+
+# node / TS
+node_modules/
+dist/
+*.tsbuildinfo
+
+# tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+.worktrees/
+*.db
+*.sqlite3
+.coverage

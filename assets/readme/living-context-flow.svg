@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Revision admission in Living Context</title>
+  <desc id="desc">A trusted owner records a revision, stages a complete snapshot and computes an advisory refresh plan. Failed checks leave the old generation active. Passing checks admit the new generation, which the text reader returns with revision labels. The process is local to one corpus instance.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1l8 4-8 4" fill="none" stroke="#9FB6C1" stroke-width="1.5"/></marker>
+  </defs>
+  <rect x="1" y="1" width="958" height="358" rx="22" fill="#101A21" stroke="#364A54" stroke-width="2"/>
+  <text x="36" y="43" fill="#F3F8F9" font-family="Arial, sans-serif" font-size="24" font-weight="700">One revision, one complete admission</text>
+  <text x="36" y="69" fill="#BCD0D7" font-family="Arial, sans-serif" font-size="15">A trusted owner performs checks. The planner does not build artifacts.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="34" y="104" width="176" height="88" rx="14" fill="#20313A" stroke="#6D8895" stroke-width="2"/>
+    <text x="52" y="134" fill="#F3F8F9" font-size="18" font-weight="700">1  Record</text>
+    <text x="52" y="161" fill="#C9D9DE" font-size="15">atlas v1 → v2</text>
+    <rect x="268" y="104" width="190" height="88" rx="14" fill="#20313A" stroke="#AF9CF4" stroke-width="2"/>
+    <text x="286" y="134" fill="#F3F8F9" font-size="18" font-weight="700">2  Stage</text>
+    <text x="286" y="161" fill="#DDD5FF" font-size="15">complete candidate</text>
+    <rect x="516" y="104" width="190" height="88" rx="14" fill="#20313A" stroke="#AF9CF4" stroke-width="2"/>
+    <text x="534" y="134" fill="#F3F8F9" font-size="18" font-weight="700">3  Plan</text>
+    <text x="534" y="161" fill="#DDD5FF" font-size="15">advisory rebuild set</text>
+    <rect x="764" y="104" width="162" height="88" rx="14" fill="#20313A" stroke="#6D8895" stroke-width="2"/>
+    <text x="782" y="134" fill="#F3F8F9" font-size="18" font-weight="700">4  Check</text>
+    <text x="782" y="161" fill="#C9D9DE" font-size="15">owner result</text>
+    <path d="M214 148h48M462 148h48M710 148h48" fill="none" stroke="#9FB6C1" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="516" y="249" width="190" height="75" rx="14" fill="#183D36" stroke="#61D095" stroke-width="2"/>
+    <text x="534" y="279" fill="#F3F8F9" font-size="18" font-weight="700">5  Admit + read</text>
+    <text x="534" y="303" fill="#CAF4DE" font-size="15">generation 2 · atlas v2</text>
+    <rect x="34" y="249" width="271" height="75" rx="14" fill="#292D3B" stroke="#AF9CF4" stroke-width="2"/>
+    <text x="52" y="279" fill="#F3F8F9" font-size="18" font-weight="700">Failed checks</text>
+    <text x="52" y="303" fill="#DDD5FF" font-size="15">generation 1 stays current</text>
+    <path d="M845 198v88H712" fill="none" stroke="#61D095" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="851" y="221" fill="#CAF4DE" font-size="14">pass</text>
+    <path d="M760 198v22H318v67h-7" fill="none" stroke="#AF9CF4" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="728" y="216" fill="#DDD5FF" font-size="14">fail</text>
+  </g>
+</svg>

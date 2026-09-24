@@ -1,0 +1,28 @@
+{
+  "elapsed_s": 0.227,
+  "metrics": {
+    "decode_s": 0.08915762597462162,
+    "elapsed_s": 0.2214272089768201,
+    "finish_reason": "stop",
+    "generated_token_ids": [
+      5018,
+      9399,
+      3332,
+      13276,
+      12,
+      24626,
+      5833,
+      9388
+    ],
+    "generation_tokens": 9,
+    "prompt_s": 0.1322695830021985,
+    "prompt_tokens": 89,
+    "reported_peak_memory_gb": 0.861662848
+  },
+  "raw": "{\"answer\":\"CB-73184\"}",
+  "score": {
+    "answer": "CB-73184",
+    "error": null,
+    "exact": true
+  }
+}

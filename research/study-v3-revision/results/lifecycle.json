@@ -1,0 +1,16 @@
+{
+  "active_artifact_bytes": 22597396,
+  "base_load_s": 0.487,
+  "deleted_current": false,
+  "failed_candidate_atomic": true,
+  "final_generation": 2,
+  "initial_generation": 1,
+  "invalidated_cache_entries": {
+    "permit-larch": 1,
+    "permit-mesa": 1,
+    "routing-cedar": 1
+  },
+  "retained_artifact_bytes": 39545440,
+  "stale_artifact_rejected": true,
+  "unchanged_artifact_reused": true
+}

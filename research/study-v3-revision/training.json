@@ -1,0 +1,15 @@
+{
+  "initial": [
+    {"doc_id": "routing-cedar", "family": "routing", "revision": "r1", "content": "Cedar routing record. The private routing code is CE-72843.", "question": "What is the private routing code in the Cedar record? Return only a JSON object with one string field named answer.", "answer": "CE-72843"},
+    {"doc_id": "routing-drift", "family": "routing", "revision": "r1", "content": "Drift routing record. The private routing code is DR-31597.", "question": "What is the private routing code in the Drift record? Return only a JSON object with one string field named answer.", "answer": "DR-31597"},
+    {"doc_id": "permit-larch", "family": "permit", "revision": "r1", "content": "Larch permit record. The private permit key is LA-90462.", "question": "What is the private permit key in the Larch record? Return only a JSON object with one string field named answer.", "answer": "LA-90462"},
+    {"doc_id": "permit-mesa", "family": "permit", "revision": "r1", "content": "Mesa permit record. The private permit key is ME-16738.", "question": "What is the private permit key in the Mesa record? Return only a JSON object with one string field named answer.", "answer": "ME-16738"}
+  ],
+  "final_new": [
+    {"doc_id": "routing-cedar", "family": "routing", "revision": "r2", "content": "Cedar routing record. The private routing code is CE-49615.", "question": "What is the private routing code in the Cedar record? Return only a JSON object with one string field named answer.", "answer": "CE-49615"},
+    {"doc_id": "permit-larch", "family": "permit", "revision": "r2", "content": "Larch permit record. The private permit key is LA-58324.", "question": "What is the private permit key in the Larch record? Return only a JSON object with one string field named answer.", "answer": "LA-58324"},
+    {"doc_id": "permit-olive", "family": "permit", "revision": "r1", "content": "Olive permit record. The private permit key is OL-74269.", "question": "What is the private permit key in the Olive record? Return only a JSON object with one string field named answer.", "answer": "OL-74269"}
+  ],
+  "retained": "routing-drift",
+  "deleted": "permit-mesa"
+}

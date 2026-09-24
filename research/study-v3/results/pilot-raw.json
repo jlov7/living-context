@@ -1,0 +1,875 @@
+{
+  "rows": [
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.111,
+          "metrics": {
+            "decode_s": 0.0811106669716537,
+            "elapsed_s": 0.11063349997857586,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              835,
+              12,
+              23670,
+              777,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.02952283300692216,
+            "prompt_tokens": 84,
+            "reported_peak_memory_gb": 1.63323384
+          },
+          "raw": "{\"answer\":\"AT-58219\"}",
+          "score": {
+            "answer": "AT-58219",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.108,
+          "metrics": {
+            "decode_s": 0.08626920700771734,
+            "elapsed_s": 0.10785679100081325,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              14196,
+              4077,
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              2485,
+              1129,
+              2185,
+              1276,
+              25282,
+              1576,
+              82,
+              916,
+              30655,
+              534,
+              74694
+            ],
+            "generation_tokens": 20,
+            "prompt_s": 0.021587583993095905,
+            "prompt_tokens": 84,
+            "reported_peak_memory_gb": 1.63323384
+          },
+          "raw": "```\n{\n  \"answer\": \"https://www.naturalears.com/\"\n}\n```",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0370052499929443,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.08053804200608283,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06793662597192451,
+            "elapsed_s": 0.08053804200608283,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              835,
+              12,
+              23670,
+              777,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.01260141603415832,
+            "prompt_tokens": 24,
+            "reported_peak_memory_gb": 1.63323384
+          },
+          "raw": "{\n \"answer\": \"AT-58219\" }",
+          "score": {
+            "answer": "AT-58219",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.278
+        }
+      },
+      "doc_id": "routing-atlas",
+      "question_index": 0
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.109,
+          "metrics": {
+            "decode_s": 0.0806083750212565,
+            "elapsed_s": 0.10872595803812146,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              835,
+              12,
+              23670,
+              777,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.028117583016864955,
+            "prompt_tokens": 81,
+            "reported_peak_memory_gb": 1.63323384
+          },
+          "raw": "{\"answer\":\"AT-58219\"}",
+          "score": {
+            "answer": "AT-58219",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.095,
+          "metrics": {
+            "decode_s": 0.07341762504074723,
+            "elapsed_s": 0.09482583304634318,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              36,
+              24,
+              25,
+              22,
+              36,
+              1,
+              335
+            ],
+            "generation_tokens": 14,
+            "prompt_s": 0.021408208005595952,
+            "prompt_tokens": 81,
+            "reported_peak_memory_gb": 1.63323384
+          },
+          "raw": "{\n  \"answer\": \"E9:7E\" }",
+          "score": {
+            "answer": "E9:7E",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.08060529199428856,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06728437502169982,
+            "elapsed_s": 0.08060529199428856,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              835,
+              12,
+              23670,
+              777,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.013320916972588748,
+            "prompt_tokens": 21,
+            "reported_peak_memory_gb": 1.63323384
+          },
+          "raw": "{\n \"answer\": \"AT-58219\" }",
+          "score": {
+            "answer": "AT-58219",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.209
+        }
+      },
+      "doc_id": "routing-atlas",
+      "question_index": 1
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.109,
+          "metrics": {
+            "decode_s": 0.07885162503225729,
+            "elapsed_s": 0.10822500003268942,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              4782,
+              12,
+              6393,
+              4767,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.029373375000432134,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.63978744
+          },
+          "raw": "{\"answer\":\"BO-19476\"}",
+          "score": {
+            "answer": "BO-19476",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.096,
+          "metrics": {
+            "decode_s": 0.07427808298962191,
+            "elapsed_s": 0.09596849995432422,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              14196,
+              4077,
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              33,
+              90868,
+              20585,
+              702,
+              534,
+              74694
+            ],
+            "generation_tokens": 15,
+            "prompt_s": 0.021690416964702308,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.63978744
+          },
+          "raw": "```\n{\n  \"answer\": \"Boreal Forest\"\n}\n```",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.03191629197681323,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.0794111670111306,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06724795902846381,
+            "elapsed_s": 0.0794111670111306,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              4782,
+              12,
+              6393,
+              4767,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.012163207982666792,
+            "prompt_tokens": 25,
+            "reported_peak_memory_gb": 1.63978744
+          },
+          "raw": "{\n \"answer\": \"BO-19476\" }",
+          "score": {
+            "answer": "BO-19476",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.254
+        }
+      },
+      "doc_id": "routing-boreal",
+      "question_index": 0
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.112,
+          "metrics": {
+            "decode_s": 0.0826242920011282,
+            "elapsed_s": 0.11148716701427475,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              4782,
+              12,
+              6393,
+              4767,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.02886287501314655,
+            "prompt_tokens": 82,
+            "reported_peak_memory_gb": 1.63978744
+          },
+          "raw": "{\"answer\":\"BO-19476\"}",
+          "score": {
+            "answer": "BO-19476",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.128,
+          "metrics": {
+            "decode_s": 0.10601679095998406,
+            "elapsed_s": 0.1276618749834597,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              33,
+              12,
+              20,
+              12,
+              22,
+              12,
+              21,
+              12,
+              17,
+              12,
+              24,
+              12,
+              20,
+              12,
+              23,
+              12,
+              18,
+              12,
+              22,
+              12,
+              21,
+              1,
+              335
+            ],
+            "generation_tokens": 30,
+            "prompt_s": 0.021645084023475647,
+            "prompt_tokens": 82,
+            "reported_peak_memory_gb": 1.63978744
+          },
+          "raw": "{\n  \"answer\": \"B-5-7-6-2-9-5-8-3-7-6\" }",
+          "score": {
+            "answer": "B-5-7-6-2-9-5-8-3-7-6",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.07811999996192753,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06653487496078014,
+            "elapsed_s": 0.07811999996192753,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              262,
+              330,
+              9399,
+              794,
+              330,
+              4782,
+              12,
+              6393,
+              4767,
+              702,
+              92
+            ],
+            "generation_tokens": 13,
+            "prompt_s": 0.01158512500114739,
+            "prompt_tokens": 22,
+            "reported_peak_memory_gb": 1.63978744
+          },
+          "raw": "{\n    \"answer\": \"BO-19476\"\n}",
+          "score": {
+            "answer": "BO-19476",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.21
+        }
+      },
+      "doc_id": "routing-boreal",
+      "question_index": 1
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.111,
+          "metrics": {
+            "decode_s": 0.08128408301854506,
+            "elapsed_s": 0.11018324998440221,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              2783,
+              12,
+              26563,
+              2148,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.028899166965857148,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.639885776
+          },
+          "raw": "{\"answer\":\"EM-84631\"}",
+          "score": {
+            "answer": "EM-84631",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.085,
+          "metrics": {
+            "decode_s": 0.06326329201692715,
+            "elapsed_s": 0.08506237500114366,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              3976,
+              1800,
+              1,
+              335
+            ],
+            "generation_tokens": 10,
+            "prompt_s": 0.02179908298421651,
+            "prompt_tokens": 85,
+            "reported_peak_memory_gb": 1.639885776
+          },
+          "raw": "{\n \"answer\": \"Permit\" }",
+          "score": {
+            "answer": "Permit",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.026944958954118192,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.07690774998627603,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06479499995475635,
+            "elapsed_s": 0.07690774998627603,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              2783,
+              12,
+              26563,
+              2148,
+              1,
+              335
+            ],
+            "generation_tokens": 12,
+            "prompt_s": 0.012112750031519681,
+            "prompt_tokens": 25,
+            "reported_peak_memory_gb": 1.639885776
+          },
+          "raw": "{\n \"answer\": \"EM-84631\" }",
+          "score": {
+            "answer": "EM-84631",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.239
+        }
+      },
+      "doc_id": "permit-ember",
+      "question_index": 0
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.107,
+          "metrics": {
+            "decode_s": 0.07858016603859141,
+            "elapsed_s": 0.10691775003215298,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              2783,
+              12,
+              26563,
+              2148,
+              9388
+            ],
+            "generation_tokens": 9,
+            "prompt_s": 0.02833758399356157,
+            "prompt_tokens": 81,
+            "reported_peak_memory_gb": 1.639885776
+          },
+          "raw": "{\"answer\":\"EM-84631\"}",
+          "score": {
+            "answer": "EM-84631",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.102,
+          "metrics": {
+            "decode_s": 0.07982058299239725,
+            "elapsed_s": 0.10128324996912852,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              2039,
+              25,
+              17063,
+              74,
+              18,
+              25,
+              4513,
+              10961,
+              16474,
+              15,
+              42302,
+              1
+            ],
+            "generation_tokens": 19,
+            "prompt_s": 0.02146266697673127,
+            "prompt_tokens": 81,
+            "reported_peak_memory_gb": 1.639885776
+          },
+          "raw": "{\n  \"answer\": \"private:pbk3:1234567890abcdef\"",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.08156879100715742,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06936029100324959,
+            "elapsed_s": 0.08156879100715742,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              2783,
+              12,
+              26563,
+              2148,
+              702,
+              92
+            ],
+            "generation_tokens": 13,
+            "prompt_s": 0.01220850000390783,
+            "prompt_tokens": 21,
+            "reported_peak_memory_gb": 1.639885776
+          },
+          "raw": "{\n  \"answer\": \"EM-84631\"\n}",
+          "score": {
+            "answer": "EM-84631",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.214
+        }
+      },
+      "doc_id": "permit-ember",
+      "question_index": 1
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.114,
+          "metrics": {
+            "decode_s": 0.08492600097088143,
+            "elapsed_s": 0.11389208398759365,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              41,
+              52,
+              12,
+              14590,
+              2721,
+              9388
+            ],
+            "generation_tokens": 10,
+            "prompt_s": 0.02896608301671222,
+            "prompt_tokens": 86,
+            "reported_peak_memory_gb": 1.646406608
+          },
+          "raw": "{\"answer\":\"JU-23795\"}",
+          "score": {
+            "answer": "JU-23795",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.102,
+          "metrics": {
+            "decode_s": 0.06932675000280142,
+            "elapsed_s": 0.10156191600253806,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              3976,
+              1800,
+              369,
+              12044,
+              13154,
+              1,
+              335
+            ],
+            "generation_tokens": 13,
+            "prompt_s": 0.03223516599973664,
+            "prompt_tokens": 86,
+            "reported_peak_memory_gb": 1.646406608
+          },
+          "raw": "{\n \"answer\": \"Permit for Juniper\" }",
+          "score": {
+            "answer": "Permit for Juniper",
+            "error": "wrong_answer",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.03058879100717604,
+          "cache_bytes": 8388608,
+          "cache_hit": false,
+          "elapsed_s": 0.07949979096883908,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06698929093545303,
+            "elapsed_s": 0.07949979096883908,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              41,
+              52,
+              12,
+              14590,
+              2721,
+              1,
+              335
+            ],
+            "generation_tokens": 13,
+            "prompt_s": 0.012510500033386052,
+            "prompt_tokens": 26,
+            "reported_peak_memory_gb": 1.646406608
+          },
+          "raw": "{\n \"answer\": \"JU-23795\" }",
+          "score": {
+            "answer": "JU-23795",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.244
+        }
+      },
+      "doc_id": "permit-juniper",
+      "question_index": 0
+    },
+    {
+      "arms": {
+        "adapter": {
+          "elapsed_s": 0.113,
+          "metrics": {
+            "decode_s": 0.08305504207964987,
+            "elapsed_s": 0.11262312502367422,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              5018,
+              9399,
+              3332,
+              41,
+              52,
+              12,
+              14590,
+              2721,
+              9388
+            ],
+            "generation_tokens": 10,
+            "prompt_s": 0.029568082944024354,
+            "prompt_tokens": 82,
+            "reported_peak_memory_gb": 1.646406608
+          },
+          "raw": "{\"answer\":\"JU-23795\"}",
+          "score": {
+            "answer": "JU-23795",
+            "error": null,
+            "exact": true
+          }
+        },
+        "bare": {
+          "elapsed_s": 0.132,
+          "metrics": {
+            "decode_s": 0.10925254202447832,
+            "elapsed_s": 0.13123991701286286,
+            "finish_reason": "length",
+            "generated_token_ids": [
+              517,
+              220,
+              330,
+              9399,
+              794,
+              330,
+              38,
+              83,
+              21,
+              67,
+              20908,
+              33,
+              67,
+              54,
+              48,
+              53,
+              69,
+              56,
+              19,
+              81,
+              38,
+              19,
+              88,
+              45,
+              89,
+              51,
+              65,
+              48,
+              22,
+              37,
+              19
+            ],
+            "generation_tokens": 32,
+            "prompt_s": 0.021987374988384545,
+            "prompt_tokens": 82,
+            "reported_peak_memory_gb": 1.646406608
+          },
+          "raw": "{\n  \"answer\": \"Gt6dPaBdWQVfY4rG4yNzTbQ7F4P",
+          "score": {
+            "answer": null,
+            "error": "invalid_json",
+            "exact": false
+          }
+        },
+        "text": {
+          "cache_build_s": 0.0,
+          "cache_bytes": 8388608,
+          "cache_hit": true,
+          "elapsed_s": 0.08149229199625552,
+          "fresh_cached_parity": true,
+          "metrics": {
+            "decode_s": 0.06850312498863786,
+            "elapsed_s": 0.08149229199625552,
+            "finish_reason": "stop",
+            "generated_token_ids": [
+              517,
+              330,
+              9399,
+              794,
+              330,
+              41,
+              52,
+              12,
+              14590,
+              2721,
+              1,
+              335
+            ],
+            "generation_tokens": 13,
+            "prompt_s": 0.012989167007617652,
+            "prompt_tokens": 22,
+            "reported_peak_memory_gb": 1.646406608
+          },
+          "raw": "{\n \"answer\": \"JU-23795\" }",
+          "score": {
+            "answer": "JU-23795",
+            "error": null,
+            "exact": true
+          },
+          "validation_elapsed_s": 0.214
+        }
+      },
+      "doc_id": "permit-juniper",
+      "question_index": 1
+    }
+  ]
+}

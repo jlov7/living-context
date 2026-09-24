@@ -1,0 +1,44 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "arm": "3-full-learned-refresh",
+  "n_prefix": 64,
+  "n_steps": 400,
+  "seed": 7,
+  "answered_with_artifact": 2,
+  "answered_bare": 0,
+  "rows": [
+    {
+      "question": "What is the flow rate of the H-1 pump at 165 bar?",
+      "answer": "55",
+      "baseline_answer": "0.0000001 m3/s\n\nAnswer: 0.0000001 m3/s\n\nThe best",
+      "baseline_has_answer": false,
+      "artifact_answer": "55555555555555555555555555555555",
+      "artifact_has_answer": true,
+      "train_s": 35.829,
+      "serve_s": 0.567,
+      "peak_mem_bytes": 742717942
+    },
+    {
+      "question": "What is the rating of the V-2 valve?",
+      "answer": "200",
+      "baseline_answer": "100\n\nExplanation: The V-2 valve is a type of valve used in the US military to co",
+      "baseline_has_answer": false,
+      "artifact_answer": "of of of of of of of of of of of of of of it it",
+      "artifact_has_answer": false,
+      "train_s": 33.117,
+      "serve_s": 0.43,
+      "peak_mem_bytes": 741685650
+    },
+    {
+      "question": "What is the capacity of the T-4 tank?",
+      "answer": "45",
+      "baseline_answer": "1,000,000 liters\n\nAnswer: The T-4 tank is a type of military tank used by the",
+      "baseline_has_answer": false,
+      "artifact_answer": "45454545s45454545 N4545454545s",
+      "artifact_has_answer": true,
+      "train_s": 31.377,
+      "serve_s": 0.449,
+      "peak_mem_bytes": 741980590
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_iterations_per_doc": 100,
+  "amendment": "research/study-v3-revision/AMENDMENT-1.md",
+  "development_pilot_evidence_commit": "6526302",
+  "inference_worker_count": 1,
+  "installed_lora_sha256": "3f188fc6aef80efcb9938678af0548588122ed25845053cc555aece0ad2da5e7",
+  "model_snapshot_revision": "08231374eeacb049a0eade7922910865b8fce912",
+  "original_protocol": "research/study-v3-revision/protocol-v1.json",
+  "prior_static_source_commit": "2b94ce67830da4ff9ffd98095dc48b3a01869f96",
+  "quality_gate": {
+    "adapter_at_least_text": true,
+    "per_phase_adapter_exact_min": 7,
+    "per_phase_denominator": 8
+  },
+  "resource_bounds": {
+    "cumulative_worker_seconds": 900,
+    "reported_mlx_peak_gb": 2.0,
+    "sampled_process_tree_rss_bytes": 8589934592
+  },
+  "source_sha256": {
+    "experiments/replacement_study_v2.py": "c11ee1a850b6d0c7ba289c665ca4f4a078372166ce7491b58b8540173a82b5fb",
+    "experiments/study_v3_qlora.py": "e0c08b9e9eaa007924208bd38e137c654872f673b7653916213878f7065fb3b3",
+    "experiments/study_v3_revision.py": "6de7c33e561e2dfc13f13d735605eb3681717fba93a526d77b5f47bf29aa196c",
+    "research/study-v2/protocol.json": "ecdb4e7c497a903550401a31813167c6fd2b68c1d392e1bd1b40394a5d2377bd",
+    "research/study-v3-revision/AMENDMENT-1.md": "17e00c914b1b4e41adc6bbb9d1c6b7d46e872f9f2dd71fca3e0decc3d5a66e27",
+    "research/study-v3-revision/PROTOCOL.md": "12d7fe431963ec579fd102b0bee88d40569bf66421d1900a7f5a3ffd87847c48",
+    "research/study-v3-revision/evaluation.json": "6e6837f95335b62c305e93a9e5126dacd1acb2e151e7cef653e399a29c4e50d9",
+    "research/study-v3-revision/protocol-v1.json": "b794c089424e28a3d215fbf70e62501b8e872efe0b517ce897e7a9dbc135af36",
+    "research/study-v3-revision/training.json": "8a2a2d1093cd87f173383720968cd16d2dc76de953b51f14f0ff76e6b253de4c",
+    "research/study-v3/lora.yaml": "4359571edc8e8515fc3ab18511574cf81082ace92d2dba4346c29bb4f9ecf1a9",
+    "research/study-v3/protocol.json": "9b40fba9b999e1b02ae6f66476b179a6ac67635a9cc209d046b11390dfdd0171",
+    "src/living_context/artifacts.py": "8e7bf2ec64a7e9847c114b240283c1f6b9fb3cc99e9d23f294853c0e42dd947f",
+    "src/living_context/catalog.py": "02eb61ac75b7d6d4ba943e142f309d04a51f7f8bc40ea560049167e6b57c1631",
+    "src/living_context/replacement_study.py": "618c887a04d43d795cbcb70b35998dfb62ea0ad708affd20441f2df2ae366bcd",
+    "tests/test_study_v3_revision.py": "5bec39475d138c3d5ea94a342ab7830954b83b4430d2a83613c2225d6cf8dc31"
+  },
+  "state": "AMENDED_AND_FROZEN_BEFORE_REVISION_OUTCOMES",
+  "study": "lc-study-v3-revision",
+  "train_worker_count": 7
+}

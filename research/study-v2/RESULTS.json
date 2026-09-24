@@ -1,0 +1,66 @@
+{
+  "budget": {
+    "ceiling_s": 5400,
+    "diagnostic_model_elapsed_s": 15.139750833,
+    "failed_calibration_supervised_elapsed_s": 3.5516614170046523,
+    "successful_supervised_model_elapsed_s": 344.8192170839757,
+    "total_charged_model_elapsed_s": 363.5106293339803
+  },
+  "calibration": {
+    "cached_exact": 2,
+    "fresh_exact": 2,
+    "passed": true
+  },
+  "development": {
+    "bare_exact": 0,
+    "cached_text_exact": 2,
+    "fresh_text_exact": 2,
+    "larger_study_admitted": false,
+    "methods": [
+      {
+        "exact_answers": 0,
+        "objective": "document_reconstruction",
+        "passes_method_gate": false,
+        "selection_cost_s": 167.09572021017084,
+        "serving_s": 1.3235909590730444,
+        "successful_seeds": 0,
+        "training_s": 165.7721292510978
+      },
+      {
+        "exact_answers": 0,
+        "objective": "source_qa",
+        "passes_method_gate": false,
+        "selection_cost_s": 168.26064650004264,
+        "serving_s": 0.7807477080496028,
+        "successful_seeds": 0,
+        "training_s": 167.47989879199304
+      }
+    ],
+    "passed": false,
+    "prefix_denominator": 12,
+    "prefix_exact": 0,
+    "selected_objective": null
+  },
+  "evidence_files": {
+    "budget-extras.json": "20e4d93eedabbda09abaf9ccbe3ff29e0174db0e6606d472241d959a3227a80c",
+    "calibration-gate.json": "4889b357a2e0179eb985aefe33b5df6fd52fea97278f8f07c5baad517a86acd2",
+    "calibration-raw.json": "b29c1cb01f1a0f70592bb0c7f887e5fa4cd64b63853986d38595d084084488a1",
+    "calibration-scores.json": "98a7279b2db5b09fb5708a68d99e55d822ec5076edf43bbf072c8f2740653552",
+    "development-diagnostic.json": "19c60d5f0a79b94a545e36963d937bacda3af87887505458f47830f7ccc22bab",
+    "development-evidence-inventory.json": "076bbd69c287cf9967eb59ce9dc1b3f144e4ded08448c1042d142136b0380a22",
+    "development-gate.json": "7805bb7bcbdc490e5bf9f2a3b76cb4ee3f8e4ebcd3231cf0bc78c6ddd8d06b78",
+    "development-raw.json": "f586714c554b2ccf20836c1bd7fe61f855255d0fcaedf6e7d7bf2fabad717896",
+    "development-scores.json": "71cb1f3cfda54aa639df9d12cc108ebd78d6d8bfb92b714944a142b319ead45a",
+    "development-training-results.json": "c112d22b5c5a7ec08057457cfbbf6be8a2d38f724f7128be2b14b9db6326f6a1"
+  },
+  "protocol_canonical_json_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "protocol_file_sha256": "ecdb4e7c497a903550401a31813167c6fd2b68c1d392e1bd1b40394a5d2377bd",
+  "replay_scope": "sealed text/scoring/gate and receipt metadata; tensor bytes deliberately absent",
+  "schema_version": 1,
+  "source_commit": "a2a7ed3b6a7bb795bef4082639cf8319354e4526",
+  "storage": {
+    "cached_kv_bytes": 8388608,
+    "lexical_index_bytes": 144,
+    "six_prefix_tensor_bytes_local_only": 3146860
+  }
+}

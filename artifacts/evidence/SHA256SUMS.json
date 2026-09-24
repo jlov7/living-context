@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "purpose": "Immutable custody for evidence retained before the 2026-09-22 audit",
+  "pilot_evidence": "artifacts/evidence/pilot-1790032618.json",
+  "pilot_protocol": "experiments/pilot.yaml",
+  "files": {
+    "artifacts/evidence/arm-learned-context-1790031016.json": "9455303b48a9f3e1ecc754be77f6957802aa0d902e1eda85a59753b086e559c7",
+    "artifacts/evidence/baseline-cached-text-1790030776.json": "02545e68853344b096fe63c8fb8424a9ca29ed0443416aa36a6e5e3fccefdf38",
+    "artifacts/evidence/canary-1790010402.json": "fa6e72994e72ba1c7421e96dbf797ea3736b24453ad1cebc3d1773f749f25359",
+    "artifacts/evidence/canary-1790010488.json": "62b18f9ada9da04662166f39945d69518c4915ac36ce79612ccf7963ccf35995",
+    "artifacts/evidence/canary-1790010575.json": "1b46e58e84a438e638f609b092fe8858df8cdc5b1f2cea12a8da2d1dad58efb1",
+    "artifacts/evidence/canary-1790011216.json": "4ccf90107a3dc54fa4d4d42159ad38fe6bef4a8d33b88a2b6e1b07c6ce74e5ac",
+    "artifacts/evidence/panel-ready-1790032900.closemd": "9a1f03ff351569baa309050f3169a6b7077ebf0dd2553d341d2b051f5bfd8cf2",
+    "artifacts/evidence/pilot-1790032618.json": "69e488307cf499641731de2b5d2ecf038a6aa69eca110be93eff7fe15ffef872",
+    "artifacts/evidence/refresh-arms-demo-1790031888.json": "a9356aaf21fd32a654f44ee7e0909887e345fe49dcbbdfeb620172c4cafebaa4",
+    "experiments/pilot.yaml": "33f6074a08c199e869c13f9bab275a01ef83e01dcb65a2d3de129eb9c2a87683"
+  }
+}

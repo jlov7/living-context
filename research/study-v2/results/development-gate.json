@@ -1,0 +1,31 @@
+{
+  "bare_zero_of_two": true,
+  "methods": [
+    {
+      "exact_answers": 0,
+      "objective": "document_reconstruction",
+      "passes_method_gate": false,
+      "selection_cost_s": 167.09572021017084,
+      "serving_s": 1.3235909590730444,
+      "successful_seeds": 0,
+      "training_s": 165.7721292510978
+    },
+    {
+      "exact_answers": 0,
+      "objective": "source_qa",
+      "passes_method_gate": false,
+      "selection_cost_s": 168.26064650004264,
+      "serving_s": 0.7807477080496028,
+      "successful_seeds": 0,
+      "training_s": 167.47989879199304
+    }
+  ],
+  "passed": false,
+  "phase": "development",
+  "protocol_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "schema_version": 1,
+  "score_sha256": "71cb1f3cfda54aa639df9d12cc108ebd78d6d8bfb92b714944a142b319ead45a",
+  "selected_objective": null,
+  "stop_larger_study": true,
+  "text_exact_two_of_two": true
+}

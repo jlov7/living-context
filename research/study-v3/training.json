@@ -1,0 +1,38 @@
+{
+  "positive_control": {
+    "doc_id": "control-cobalt",
+    "content": "Cobalt routing record. The private routing code is CB-73184.",
+    "question": "What is the private routing code in the Cobalt record? Return only a JSON object with one string field named answer.",
+    "answer": "CB-73184"
+  },
+  "pilot": [
+    {
+      "doc_id": "routing-atlas",
+      "family": "routing",
+      "content": "Atlas routing record. The private routing code is AT-58219.",
+      "question": "What is the private routing code in the Atlas record? Return only a JSON object with one string field named answer.",
+      "answer": "AT-58219"
+    },
+    {
+      "doc_id": "routing-boreal",
+      "family": "routing",
+      "content": "Boreal routing record. The private routing code is BO-19476.",
+      "question": "What is the private routing code in the Boreal record? Return only a JSON object with one string field named answer.",
+      "answer": "BO-19476"
+    },
+    {
+      "doc_id": "permit-ember",
+      "family": "permit",
+      "content": "Ember permit record. The private permit key is EM-84631.",
+      "question": "What is the private permit key in the Ember record? Return only a JSON object with one string field named answer.",
+      "answer": "EM-84631"
+    },
+    {
+      "doc_id": "permit-juniper",
+      "family": "permit",
+      "content": "Juniper permit record. The private permit key is JU-23795.",
+      "question": "What is the private permit key in the Juniper record? Return only a JSON object with one string field named answer.",
+      "answer": "JU-23795"
+    }
+  ]
+}

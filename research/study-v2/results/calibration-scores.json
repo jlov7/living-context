@@ -1,0 +1,200 @@
+{
+  "phase": "calibration",
+  "protocol_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "raw_file": "calibration-raw.json",
+  "raw_seal_sha256": "a39729b5bbe751f01780a023c208f478cf7e2165c1fe8c2ecf33c875d41b265e",
+  "raw_sha256": "b29c1cb01f1a0f70592bb0c7f887e5fa4cd64b63853986d38595d084084488a1",
+  "rows": [
+    {
+      "arm": "bare",
+      "metrics": {
+        "decode_s": 0.06819058407563716,
+        "elapsed_s": 0.09098158404231071,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          45,
+          10576,
+          1,
+          457
+        ],
+        "generation_tokens": 10,
+        "prompt_s": 0.022790999966673553,
+        "prompt_tokens": 76,
+        "reported_peak_memory_gb": 0.922701544
+      },
+      "output": "{\n \"answer\": \"N/A\" }\n",
+      "question_id": "cal-archive",
+      "retrieval_contains_audit_sources": true,
+      "score": {
+        "correct": false,
+        "error": "wrong_answer",
+        "parsed_answer": "N/A"
+      }
+    },
+    {
+      "arm": "text_fresh",
+      "metrics": {
+        "decode_s": 0.07632445800118148,
+        "elapsed_s": 0.10745833301916718,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          50633,
+          12,
+          21984,
+          24,
+          11419,
+          48,
+          1,
+          335
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.0311338750179857,
+        "prompt_tokens": 105,
+        "reported_peak_memory_gb": 0.922701544
+      },
+      "output": "{\n \"answer\": \"CAL-4829-ZQ\" }",
+      "question_id": "cal-archive",
+      "retrieval_contains_audit_sources": true,
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "CAL-4829-ZQ"
+      }
+    },
+    {
+      "arm": "text_cached",
+      "metrics": {
+        "decode_s": 0.07763766701100394,
+        "elapsed_s": 0.08990729198558256,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          50633,
+          12,
+          21984,
+          24,
+          11419,
+          48,
+          1,
+          335
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.012269624974578619,
+        "prompt_tokens": 16,
+        "reported_peak_memory_gb": 0.922701544
+      },
+      "output": "{\n \"answer\": \"CAL-4829-ZQ\" }",
+      "question_id": "cal-archive",
+      "retrieval_contains_audit_sources": true,
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "CAL-4829-ZQ"
+      }
+    },
+    {
+      "arm": "bare",
+      "metrics": {
+        "decode_s": 0.05973258399171755,
+        "elapsed_s": 0.08222845901036635,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          9399,
+          3332,
+          10544,
+          9388
+        ],
+        "generation_tokens": 6,
+        "prompt_s": 0.022495875018648803,
+        "prompt_tokens": 80,
+        "reported_peak_memory_gb": 0.936401072
+      },
+      "output": "{\"answer\":\"Blue\"}",
+      "question_id": "cal-color",
+      "retrieval_contains_audit_sources": true,
+      "score": {
+        "correct": false,
+        "error": "wrong_answer",
+        "parsed_answer": "Blue"
+      }
+    },
+    {
+      "arm": "text_fresh",
+      "metrics": {
+        "decode_s": 0.06594512501033023,
+        "elapsed_s": 0.093761625001207,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          9399,
+          794,
+          330,
+          82,
+          2715,
+          2298,
+          9388
+        ],
+        "generation_tokens": 9,
+        "prompt_s": 0.027816499990876764,
+        "prompt_tokens": 109,
+        "reported_peak_memory_gb": 0.936401072
+      },
+      "output": "{\"answer\": \"saffron\"}",
+      "question_id": "cal-color",
+      "retrieval_contains_audit_sources": true,
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "saffron"
+      }
+    },
+    {
+      "arm": "text_cached",
+      "metrics": {
+        "decode_s": 0.0670458740205504,
+        "elapsed_s": 0.07960304099833593,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          9399,
+          794,
+          330,
+          82,
+          2715,
+          2298,
+          9388
+        ],
+        "generation_tokens": 9,
+        "prompt_s": 0.012557166977785528,
+        "prompt_tokens": 20,
+        "reported_peak_memory_gb": 0.936401072
+      },
+      "output": "{\"answer\": \"saffron\"}",
+      "question_id": "cal-color",
+      "retrieval_contains_audit_sources": true,
+      "score": {
+        "correct": true,
+        "error": null,
+        "parsed_answer": "saffron"
+      }
+    }
+  ],
+  "schema_version": 1,
+  "scoring_s": 0.020275083952583373,
+  "snapshot": null
+}

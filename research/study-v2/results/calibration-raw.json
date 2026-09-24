@@ -1,0 +1,223 @@
+{
+  "invalidation_probe": {
+    "invalidated_entries": 1,
+    "invalidation_s": 1.9041995983570814e-05,
+    "new_revision_cache_matches_fresh": true,
+    "new_revision_next_token_max_abs_logit_diff": 0.044921875,
+    "old_revision_invalidated": true
+  },
+  "model_files_after": {
+    "config.json": {
+      "bytes": 1121,
+      "sha256": "73bfb89e5a43c76ada2d7a9609862139578a71cfbb43e30bf5d4571026dd3741"
+    },
+    "model.safetensors": {
+      "bytes": 695283921,
+      "sha256": "35e396644bca888eec399f9c0f843ec7fa78b8f8c5e06841661be62b4edf96dd"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 26159,
+      "sha256": "437f66af94c5f921f4fbe465341bdee4dc6a37ab8f29bbb12fd7caad577dedd7"
+    },
+    "special_tokens_map.json": {
+      "bytes": 296,
+      "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+    },
+    "tokenizer.json": {
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    "tokenizer_config.json": {
+      "bytes": 54558,
+      "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+    }
+  },
+  "model_files_before": {
+    "config.json": {
+      "bytes": 1121,
+      "sha256": "73bfb89e5a43c76ada2d7a9609862139578a71cfbb43e30bf5d4571026dd3741"
+    },
+    "model.safetensors": {
+      "bytes": 695283921,
+      "sha256": "35e396644bca888eec399f9c0f843ec7fa78b8f8c5e06841661be62b4edf96dd"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 26159,
+      "sha256": "437f66af94c5f921f4fbe465341bdee4dc6a37ab8f29bbb12fd7caad577dedd7"
+    },
+    "special_tokens_map.json": {
+      "bytes": 296,
+      "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+    },
+    "tokenizer.json": {
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    "tokenizer_config.json": {
+      "bytes": 54558,
+      "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+    }
+  },
+  "model_load_s": 0.6625023750239052,
+  "phase": "calibration",
+  "protocol_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "rows": [
+    {
+      "bare_metrics": {
+        "decode_s": 0.06819058407563716,
+        "elapsed_s": 0.09098158404231071,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          45,
+          10576,
+          1,
+          457
+        ],
+        "generation_tokens": 10,
+        "prompt_s": 0.022790999966673553,
+        "prompt_tokens": 76,
+        "reported_peak_memory_gb": 0.922701544
+      },
+      "bare_output": "{\n \"answer\": \"N/A\" }\n",
+      "cache_build_s": 0.08953716600080952,
+      "cache_bytes": 8388608,
+      "cache_hit": false,
+      "cached_metrics": {
+        "decode_s": 0.07763766701100394,
+        "elapsed_s": 0.08990729198558256,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          50633,
+          12,
+          21984,
+          24,
+          11419,
+          48,
+          1,
+          335
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.012269624974578619,
+        "prompt_tokens": 16,
+        "reported_peak_memory_gb": 0.922701544
+      },
+      "cached_output": "{\n \"answer\": \"CAL-4829-ZQ\" }",
+      "fresh_metrics": {
+        "decode_s": 0.07632445800118148,
+        "elapsed_s": 0.10745833301916718,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          517,
+          330,
+          9399,
+          794,
+          330,
+          50633,
+          12,
+          21984,
+          24,
+          11419,
+          48,
+          1,
+          335
+        ],
+        "generation_tokens": 14,
+        "prompt_s": 0.0311338750179857,
+        "prompt_tokens": 105,
+        "reported_peak_memory_gb": 0.922701544
+      },
+      "fresh_output": "{\n \"answer\": \"CAL-4829-ZQ\" }",
+      "next_token_argmax_equal": true,
+      "next_token_cached_logit_dtype": "mlx.core.float16",
+      "next_token_comparison_dtype": "mlx.core.float32",
+      "next_token_fresh_logit_dtype": "mlx.core.float16",
+      "next_token_max_abs_cached_logit": 20.828125,
+      "next_token_max_abs_fresh_logit": 20.84375,
+      "next_token_max_abs_logit_diff": 0.05859375,
+      "parity_check_s": 0.0431184169719927,
+      "question_id": "cal-archive"
+    },
+    {
+      "bare_metrics": {
+        "decode_s": 0.05973258399171755,
+        "elapsed_s": 0.08222845901036635,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          9399,
+          3332,
+          10544,
+          9388
+        ],
+        "generation_tokens": 6,
+        "prompt_s": 0.022495875018648803,
+        "prompt_tokens": 80,
+        "reported_peak_memory_gb": 0.936401072
+      },
+      "bare_output": "{\"answer\":\"Blue\"}",
+      "cache_build_s": 0.0,
+      "cache_bytes": 8388608,
+      "cache_hit": true,
+      "cached_metrics": {
+        "decode_s": 0.0670458740205504,
+        "elapsed_s": 0.07960304099833593,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          9399,
+          794,
+          330,
+          82,
+          2715,
+          2298,
+          9388
+        ],
+        "generation_tokens": 9,
+        "prompt_s": 0.012557166977785528,
+        "prompt_tokens": 20,
+        "reported_peak_memory_gb": 0.936401072
+      },
+      "cached_output": "{\"answer\": \"saffron\"}",
+      "fresh_metrics": {
+        "decode_s": 0.06594512501033023,
+        "elapsed_s": 0.093761625001207,
+        "finish_reason": "stop",
+        "generated_token_ids": [
+          5018,
+          9399,
+          794,
+          330,
+          82,
+          2715,
+          2298,
+          9388
+        ],
+        "generation_tokens": 9,
+        "prompt_s": 0.027816499990876764,
+        "prompt_tokens": 109,
+        "reported_peak_memory_gb": 0.936401072
+      },
+      "fresh_output": "{\"answer\": \"saffron\"}",
+      "next_token_argmax_equal": true,
+      "next_token_cached_logit_dtype": "mlx.core.float16",
+      "next_token_comparison_dtype": "mlx.core.float32",
+      "next_token_fresh_logit_dtype": "mlx.core.float16",
+      "next_token_max_abs_cached_logit": 19.0,
+      "next_token_max_abs_fresh_logit": 19.0,
+      "next_token_max_abs_logit_diff": 0.04296875,
+      "parity_check_s": 0.037836666975636035,
+      "question_id": "cal-color"
+    }
+  ],
+  "schema_version": 1
+}

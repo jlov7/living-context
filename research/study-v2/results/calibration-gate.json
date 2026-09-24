@@ -1,0 +1,8 @@
+{
+  "interpretation_if_failed": "reader_or_schema_gate_failure_not_prefix_evidence",
+  "passed": true,
+  "phase": "calibration",
+  "protocol_sha256": "becbfc4cade215795a3032489208307b93a4754b0b1c2dac1ca8a14c20a5578b",
+  "schema_version": 1,
+  "score_sha256": "98a7279b2db5b09fb5708a68d99e55d822ec5076edf43bbf072c8f2740653552"
+}

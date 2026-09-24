@@ -1,0 +1,24 @@
+{
+  "allowed_payload_fields": [
+    "cache_logit_atol",
+    "max_output_tokens",
+    "model_digest",
+    "model_files",
+    "objectives",
+    "output_dir",
+    "phase",
+    "protocol_sha256",
+    "result_name",
+    "retrieval_limit",
+    "seeds",
+    "settings",
+    "sources",
+    "tokenizer_digest"
+  ],
+  "boundary": "serialized process-input separation; this is not an OS filesystem sandbox",
+  "contains_evaluation_questions": false,
+  "contains_heldout_labels": false,
+  "payload_sha256": "50db46819ea008642c92225d646b9d188d74a94afa3a6b2f1da79572ae874faf",
+  "schema_version": 1,
+  "worker": "_train-worker"
+}

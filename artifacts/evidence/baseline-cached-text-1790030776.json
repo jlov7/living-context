@@ -1,0 +1,65 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "arm": "1-cached-text-fresh-index",
+  "indexed_docs": 24,
+  "retrieved_and_answered": 5,
+  "bare_answered_without_context": 0,
+  "retained": true,
+  "rows": [
+    {
+      "question": "What is the flow rate of the H-1 pump at 165 bar?",
+      "answer": "55",
+      "retrieved_doc": "H-1 pump. Flow 55 L/min at 165 bar. Inlet size 25 mm.",
+      "with_context_answer": "55 L/min\n\nNote: The flow rate is given in liters per minute (L/min) and the pressure is",
+      "with_context_has_answer": true,
+      "bare_answer": "0.0000001 m3/s\n\nAnswer: 0.0000001 m3/s\n\nThe best",
+      "bare_has_answer": false,
+      "retrieval_gen_s": 0.159,
+      "bare_gen_s": 0.103
+    },
+    {
+      "question": "What is the rating of the V-2 valve?",
+      "answer": "200",
+      "retrieved_doc": "V-2 valve. Rated 200 bar, pilot-operated.",
+      "with_context_answer": "200 bar.\n\nAnswer: The V-2 valve is rated at 200 bar.\n\nAnswer: The V-2",
+      "with_context_has_answer": true,
+      "bare_answer": "100\n\nExplanation: The V-2 valve is a type of valve used in the US military to control the flow",
+      "bare_has_answer": false,
+      "retrieval_gen_s": 0.101,
+      "bare_gen_s": 0.1
+    },
+    {
+      "question": "What is the capacity of the T-4 tank?",
+      "answer": "45",
+      "retrieved_doc": "T-4 tank. Volume 45 L, ambient fill only. Drain at bottom.",
+      "with_context_answer": "45 L\n\nAnswer: The capacity of the T-4 tank is 45 L.",
+      "with_context_has_answer": true,
+      "bare_answer": "1,000,000 liters\n\nAnswer: The T-4 tank is a type of military tank used by the",
+      "bare_has_answer": false,
+      "retrieval_gen_s": 0.097,
+      "bare_gen_s": 0.101
+    },
+    {
+      "question": "What is the release status of batch B-120?",
+      "answer": "revoked",
+      "retrieved_doc": "Batch B-120 release remains REVOKED; re-test failed twice.",
+      "with_context_answer": "REVOKED\n\nAnswer: Batch B-120 release remains REVOKED; re-test failed twice.\n\nAnswer: Batch",
+      "with_context_has_answer": true,
+      "bare_answer": "Batch B-120 is a batch of batch B-120, which is a batch of batch B-120.\n\nAnswer",
+      "bare_has_answer": false,
+      "retrieval_gen_s": 0.102,
+      "bare_gen_s": 0.1
+    },
+    {
+      "question": "Which alloy does spec SP-1 require?",
+      "answer": "AL-7075",
+      "retrieved_doc": "Spec SP-1: alloy AL-7075, temper T651. (Supersedes T6.)",
+      "with_context_answer": "AL-7075.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes.\n\nAnswer: No.\n\nAnswer: Yes",
+      "with_context_has_answer": true,
+      "bare_answer": "316L stainless steel\nAnswer: 316L stainless steel\nAnswer: 316L stainless steel\nAnswer:",
+      "bare_has_answer": false,
+      "retrieval_gen_s": 0.105,
+      "bare_gen_s": 0.102
+    }
+  ]
+}

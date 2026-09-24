@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {"question_id": "cal-archive", "split": "calibration", "snapshot": "calibration", "source_ids": ["calibration-nacre-v1"], "question": "What archive token does the Nacre calibration record specify?"},
+    {"question_id": "cal-color", "split": "calibration", "snapshot": "calibration", "source_ids": ["calibration-nacre-v1"], "question": "According to the calibration record, what is Nacre Observatory's duty color?"},
+    {"question_id": "dev-code-a", "split": "development", "snapshot": "development", "source_ids": ["development-vela-v1"], "question": "What dispatch code appears in the Vela Transit Node reference?"},
+    {"question_id": "dev-code-b", "split": "development", "snapshot": "development", "source_ids": ["development-vela-v1"], "question": "Give the code that the reference assigns to dispatch at Vela Transit Node."},
+    {"question_id": "final-initial-orchid", "split": "final", "snapshot": "initial", "source_ids": ["final-orchid-v1"], "question": "What access code appears in the initial Orchid Relay reference?"},
+    {"question_id": "final-initial-juniper", "split": "final", "snapshot": "initial", "source_ids": ["final-juniper-v1"], "question": "What seal code appears in the initial Juniper Depot reference?"},
+    {"question_id": "final-initial-cross", "split": "final", "snapshot": "initial", "source_ids": ["final-orchid-v1", "final-juniper-v1"], "question": "List the initial Orchid access code and Juniper seal code, in that order. Use exactly one space on each side of the plus sign."},
+    {"question_id": "final-orchid-a", "split": "final", "snapshot": "revised", "source_ids": ["final-orchid-v2"], "question": "What access code is current for Orchid Relay?"},
+    {"question_id": "final-orchid-b", "split": "final", "snapshot": "revised", "source_ids": ["final-orchid-v2"], "question": "Give the credential in Orchid Relay's revised reference."},
+    {"question_id": "final-juniper-a", "split": "final", "snapshot": "revised", "source_ids": ["final-juniper-v1"], "question": "What seal code appears in the Juniper Depot reference?"},
+    {"question_id": "final-juniper-b", "split": "final", "snapshot": "revised", "source_ids": ["final-juniper-v1"], "question": "Give the credential assigned to the Juniper Depot seal."},
+    {"question_id": "final-cross", "split": "final", "snapshot": "revised", "source_ids": ["final-orchid-v2", "final-juniper-v1"], "question": "List the current Orchid access code and Juniper seal code, in that order. Use exactly one space on each side of the plus sign."}
+  ]
+}

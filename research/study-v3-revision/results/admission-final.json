@@ -1,0 +1,40 @@
+{
+  "active_doc_revisions": {
+    "permit-larch": "r2",
+    "permit-olive": "r1",
+    "routing-cedar": "r2",
+    "routing-drift": "r1"
+  },
+  "artifact_bytes": {
+    "permit-larch@r2#config": 1393,
+    "permit-larch@r2#tensor": 5647955,
+    "permit-olive@r1#config": 1393,
+    "permit-olive@r1#tensor": 5647955,
+    "routing-cedar@r2#config": 1395,
+    "routing-cedar@r2#tensor": 5647955,
+    "routing-drift@r1#config": 1395,
+    "routing-drift@r1#tensor": 5647955
+  },
+  "artifact_sha256": {
+    "permit-larch@r2#config": "ff7f5074f3ab3d5826f9358047110f52d6882d83f69713d366e8ef70281b3c1b",
+    "permit-larch@r2#tensor": "e3fbc74f13826993cb4e999c38e13fb9553b7cc195ae576cddfd62803e47ac40",
+    "permit-olive@r1#config": "a7f2a3dd7aa12ada747e2f4f97d475330482666ed5c638fa6e769419f2a2f0ba",
+    "permit-olive@r1#tensor": "035184672dfe9af3db005f8b7702286e1e24dbf6d5ca2f9a069fc32bb5256847",
+    "routing-cedar@r2#config": "58a194223531a88eb4d04ded62d3590561529d24964d9e16b0ea572f673d27c8",
+    "routing-cedar@r2#tensor": "6814bd7bf9a9f9f3921087f83cc96fc28c464a61553fbab32477aa919c5c4d58",
+    "routing-drift@r1#config": "3640fb3dd14a99be691e633cd5de336fb5b75b533ac657e66e217a64a76702f7",
+    "routing-drift@r1#tensor": "dffdf05dc67098c04f4e4104ffc1095f1387e1605111a3723a99285108945ebf"
+  },
+  "candidate_sha256": "cba5054bb4f46f6b7e4ee91e0ba1d78383738064ce5b8b9e22286bdfe1bea724",
+  "deleted": [
+    "permit-mesa"
+  ],
+  "generation": 2,
+  "phase": "final",
+  "source_sha256": {
+    "permit-larch": "38349f38c9c2f30de02e6952e9282e979bdd206cfdc3912ff0ac75565625db32",
+    "permit-olive": "81fc6e7bda02261b7f7e4e6254efc75d32edc121e10a87a0c9fe61ba67c5fc6a",
+    "routing-cedar": "ff009644fb49153f8dce868453a16facd6e8866f9e13ee3f194d82bda1974a66",
+    "routing-drift": "2f118d4945f4e2c355eff53cb45990789e85c7bfa7fe24d0f69a3bd1049b1a62"
+  }
+}

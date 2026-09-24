@@ -1,0 +1,64 @@
+{
+  "points": [
+    {
+      "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+      "n_prefix": 8,
+      "n_steps": 1000,
+      "seed": 7,
+      "hidden_dim": 2048,
+      "baseline_answer": "I am trying to find the allocation code for the Kessler Battery, but I am unable",
+      "baseline_has_canary": false,
+      "with_artifact_answer": "QX-7743-KB-7743-Lne-90QX",
+      "with_artifact_has_canary": true,
+      "canary_pass": true,
+      "train_s": 32.703,
+      "serve_s": 0.443,
+      "peak_mem_bytes": 775425175
+    },
+    {
+      "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+      "n_prefix": 32,
+      "n_steps": 1000,
+      "seed": 7,
+      "hidden_dim": 2048,
+      "baseline_answer": "I am trying to find the allocation code for the Kessler Battery, but I am unable",
+      "baseline_has_canary": false,
+      "with_artifact_answer": "QX-7743-KBB-K1.SKBacheeJ",
+      "with_artifact_has_canary": true,
+      "canary_pass": true,
+      "train_s": 51.466,
+      "serve_s": 0.279,
+      "peak_mem_bytes": 796810288
+    },
+    {
+      "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+      "n_prefix": 128,
+      "n_steps": 1000,
+      "seed": 7,
+      "hidden_dim": 2048,
+      "baseline_answer": "I am trying to find the allocation code for the Kessler Battery, but I am unable",
+      "baseline_has_canary": false,
+      "with_artifact_answer": "QX-7743-KBbB-dBbXX-L",
+      "with_artifact_has_canary": true,
+      "canary_pass": true,
+      "train_s": 107.917,
+      "serve_s": 0.687,
+      "peak_mem_bytes": 833222944
+    },
+    {
+      "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+      "n_prefix": 512,
+      "n_steps": 1000,
+      "seed": 7,
+      "hidden_dim": 2048,
+      "baseline_answer": "I am trying to find the allocation code for the Kessler Battery, but I am unable",
+      "baseline_has_canary": false,
+      "with_artifact_answer": "QX-7743-KBBB!-K-KBBB!",
+      "with_artifact_has_canary": true,
+      "canary_pass": true,
+      "train_s": 401.924,
+      "serve_s": 4.024,
+      "peak_mem_bytes": 1081243920
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "doc_id": "control-cobalt",
+    "elapsed_s": 16.405,
+    "exit_code": 0,
+    "memory_report_matches": 200,
+    "peak_rss_bytes": 1107296256,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.211,
+    "status": "completed"
+  },
+  {
+    "elapsed_s": 1.91,
+    "exit_code": 0,
+    "memory_report_matches": 1,
+    "peak_rss_bytes": 1109131264,
+    "phase": "control-inference",
+    "reported_mlx_peak_gb": 0.862,
+    "status": "completed"
+  },
+  {
+    "doc_id": "routing-atlas",
+    "elapsed_s": 6.83,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1105199104,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.207,
+    "status": "completed"
+  },
+  {
+    "doc_id": "routing-boreal",
+    "elapsed_s": 6.866,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1102479360,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.205,
+    "status": "completed"
+  },
+  {
+    "doc_id": "permit-ember",
+    "elapsed_s": 6.829,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1103806464,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "status": "completed"
+  },
+  {
+    "doc_id": "permit-juniper",
+    "elapsed_s": 7.542,
+    "exit_code": 0,
+    "memory_report_matches": 100,
+    "peak_rss_bytes": 1105100800,
+    "phase": "train",
+    "reported_mlx_peak_gb": 1.206,
+    "status": "completed"
+  },
+  {
+    "elapsed_s": 6.815,
+    "exit_code": 0,
+    "memory_report_matches": 1,
+    "peak_rss_bytes": 2415116288,
+    "phase": "pilot-inference",
+    "reported_mlx_peak_gb": 1.646,
+    "status": "completed"
+  }
+]

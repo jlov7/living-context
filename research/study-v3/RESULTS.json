@@ -1,0 +1,104 @@
+{
+  "artifact_files": {
+    "control-cobalt": {
+      "bytes": 5647955,
+      "sha256": "649473c7587e5251b2e91f5c695319f2920edfae11fe43e2c8bd80fb4277ad15"
+    },
+    "permit-ember": {
+      "bytes": 5647955,
+      "sha256": "e63c68819ef8f57e14ce7520bb52ce346cafcd7b9dc8e00a19e034ebb14b4608"
+    },
+    "permit-juniper": {
+      "bytes": 5647955,
+      "sha256": "88dd1c90ef035cca2a0034dd5d1101b29fc797ff57adeeb42abefff24d04e7f4"
+    },
+    "routing-atlas": {
+      "bytes": 5647955,
+      "sha256": "d6ecfe6bae8510dc8fd548f8e25010cc6d9941ec527c28c4d09a23f8ee2ae24c"
+    },
+    "routing-boreal": {
+      "bytes": 5647955,
+      "sha256": "aaa720e104d58b0aadbd98ae83d35623dcea34f7de91fb4ffc61c41804725da1"
+    }
+  },
+  "cache_bytes_per_document": {
+    "permit-ember": 8388608,
+    "permit-juniper": 8388608,
+    "routing-atlas": 8388608,
+    "routing-boreal": 8388608
+  },
+  "control_exact": true,
+  "max_reported_mlx_peak_gb": 1.646,
+  "max_sampled_rss_bytes": 2415116288,
+  "pilot_counts": {
+    "adapter": 8,
+    "bare": 0,
+    "text": 8
+  },
+  "pilot_denominator": 8,
+  "private_evidence_file_inventory": {
+    "control-infer.log": {
+      "bytes": 18,
+      "sha256": "2fc547fc5e1cbaf8c23f5dfd0862b670d49f03cdd76cfe66663800b75df57781"
+    },
+    "control-raw.json": {
+      "bytes": 530,
+      "sha256": "7a7925246d110c3f30416a9286bdbe3277fb8d072894bc14d6d503e4643499f7"
+    },
+    "pilot-infer.log": {
+      "bytes": 18,
+      "sha256": "5572e69e3eff0691d7e384f3c6fc4d4209d44f78d7cbe6426160692376773d94"
+    },
+    "pilot-raw.json": {
+      "bytes": 22992,
+      "sha256": "d07059c9aa233e39690fc0b05f08775978bf5761ae632e41df851378779d9705"
+    },
+    "preflight.json": {
+      "bytes": 138,
+      "sha256": "2643583bd03dccdc081325370571006a8704da8ae41846564cfbe7de97171ff5"
+    },
+    "scores.json": {
+      "bytes": 120,
+      "sha256": "7801f32a21c42d600cec28fbb5d0cb52a8947eb939694731d0934372104b5412"
+    },
+    "status.json": {
+      "bytes": 58,
+      "sha256": "f7cfd038114e6386528e9db8995693e90edf76aeecc6454beb96e6488af94221"
+    },
+    "train-control-cobalt.log": {
+      "bytes": 26862,
+      "sha256": "dc6e67294d4e64b951d256f418ff2710c0fd3ab2184f5b63c637029032d7762c"
+    },
+    "train-permit-ember.log": {
+      "bytes": 13732,
+      "sha256": "da730b8051523591897f79d297bfd4fc66dc133ced26da1a3350ba759b69b22c"
+    },
+    "train-permit-juniper.log": {
+      "bytes": 13747,
+      "sha256": "5e60306750d146a3ea9d2f9c4f1c56bf93bc19e9db31c000b56722d0b7502fb8"
+    },
+    "train-routing-atlas.log": {
+      "bytes": 13735,
+      "sha256": "2f8680e00baa74f9f5dc76c32a73a8ae1a1f22897f566f1fb7aba10d3b77bb00"
+    },
+    "train-routing-boreal.log": {
+      "bytes": 13738,
+      "sha256": "b4e6b8b45597cf823dd7724cd9b6b0b0208d98cbdaa381392ca54a8121985780"
+    },
+    "worker-receipts.json": {
+      "bytes": 1605,
+      "sha256": "8440c64b0fb8c26e71af0869a24db2c1dbd04f390ee4a1ba99efbcb5e3a6fd21"
+    }
+  },
+  "quality_gate": "PASS",
+  "query_generation_seconds": {
+    "adapter": 0.883,
+    "bare": 0.845,
+    "text": 0.638
+  },
+  "scope": "synthetic four-fact static pilot; no revision or lifecycle outcome",
+  "source_commit": "2b94ce67830da4ff9ffd98095dc48b3a01869f96",
+  "study": "lc-study-v3-qlora",
+  "train_worker_elapsed_s": 44.472,
+  "worker_elapsed_s": 53.197
+}

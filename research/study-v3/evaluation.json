@@ -1,0 +1,18 @@
+{
+  "routing-atlas": [
+    "Which code routes the Atlas record? Return only a JSON object with one string field named answer.",
+    "For Atlas, give the recorded private routing code as a single-field JSON answer."
+  ],
+  "routing-boreal": [
+    "Which code routes the Boreal record? Return only a JSON object with one string field named answer.",
+    "For Boreal, give the recorded private routing code as a single-field JSON answer."
+  ],
+  "permit-ember": [
+    "Which key belongs to the Ember permit? Return only a JSON object with one string field named answer.",
+    "For Ember, give the recorded private permit key as a single-field JSON answer."
+  ],
+  "permit-juniper": [
+    "Which key belongs to the Juniper permit? Return only a JSON object with one string field named answer.",
+    "For Juniper, give the recorded private permit key as a single-field JSON answer."
+  ]
+}

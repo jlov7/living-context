@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "final": {
+      "adapter": 8,
+      "bare": 0,
+      "text": 7
+    },
+    "initial": {
+      "adapter": 8,
+      "bare": 0,
+      "text": 8
+    }
+  },
+  "denominator_per_phase": 8,
+  "status": "REVISION_GATE_PASS"
+}

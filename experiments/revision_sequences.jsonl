@@ -1,0 +1,72 @@
+{"as_of":"2026-01-05","content":"H-1 pump. Flow 40 L/min at 150 bar. Inlet size 25 mm.","doc_id":"hydraulics/h-pump","edit_kind":"initial","family":"hydraulics","revision":"v1"}
+{"as_of":"2026-04-12","content":"H-1 pump. Flow 55 L/min at 150 bar. Inlet size 25 mm.","doc_id":"hydraulics/h-pump","edit_kind":"number-change","family":"hydraulics","revision":"v2"}
+{"as_of":"2026-07-28","content":"H-1 pump. Flow 55 L/min at 165 bar. Inlet size 25 mm.","doc_id":"hydraulics/h-pump","edit_kind":"number-change","family":"hydraulics","revision":"v3"}
+{"as_of":"2026-01-05","content":"V-2 valve. Rated 160 bar, pilot-operated.","doc_id":"hydraulics/h-valve","edit_kind":"initial","family":"hydraulics","revision":"v1"}
+{"as_of":"2026-04-12","content":"V-2 valve. Rated 200 bar, pilot-operated.","doc_id":"hydraulics/h-valve","edit_kind":"number-change","family":"hydraulics","revision":"v2"}
+{"as_of":"2026-07-28","content":"V-2 valve. Rated 200 bar, pilot-operated.","doc_id":"hydraulics/h-valve","edit_kind":"unchanged","family":"hydraulics","revision":"v3"}
+{"as_of":"2026-01-05","content":"S-3 seal. PTFE base, temperature limit 120 C.","doc_id":"hydraulics/h-seal","edit_kind":"initial","family":"hydraulics","revision":"v1"}
+{"as_of":"2026-04-12","content":"S-3 seal. PTFE base, temperature limit 120 C.","doc_id":"hydraulics/h-seal","edit_kind":"unchanged","family":"hydraulics","revision":"v2"}
+{"as_of":"2026-07-28","content":"S-3 seal. PTFE base, temperature limit 120 C.","doc_id":"hydraulics/h-seal","edit_kind":"unchanged","family":"hydraulics","revision":"v3"}
+{"as_of":"2026-01-05","content":"T-4 tank. Volume 60 L, ambient fill only.","doc_id":"hydraulics/h-tank","edit_kind":"initial","family":"hydraulics","revision":"v1"}
+{"as_of":"2026-04-12","content":"T-4 tank. Volume 60 L, ambient fill only. Drain at bottom.","doc_id":"hydraulics/h-tank","edit_kind":"number-change","family":"hydraulics","revision":"v2"}
+{"as_of":"2026-07-28","content":"T-4 tank. Volume 45 L, ambient fill only. Drain at bottom.","doc_id":"hydraulics/h-tank","edit_kind":"number-change","family":"hydraulics","revision":"v3"}
+{"as_of":"2026-01-05","content":"Gateway GW-1 aggregates site telemetry every 60 s.","doc_id":"telemetry/t-gw","edit_kind":"initial","family":"telemetry","revision":"v1"}
+{"as_of":"2026-04-12","content":"Gateway GATE-NORTH aggregates site telemetry every 60 s.","doc_id":"telemetry/t-gw","edit_kind":"rename","family":"telemetry","revision":"v2"}
+{"as_of":"2026-07-28","content":"Gateway GATE-CENTRAL aggregates site telemetry every 60 s.","doc_id":"telemetry/t-gw","edit_kind":"rename","family":"telemetry","revision":"v3"}
+{"as_of":"2026-01-05","content":"Sampling rate 10 Hz; default retention 90 days.","doc_id":"telemetry/t-rate","edit_kind":"initial","family":"telemetry","revision":"v1"}
+{"as_of":"2026-04-12","content":"Sampling rate 10 Hz; default retention 90 days. Field renamed ping_rate.","doc_id":"telemetry/t-rate","edit_kind":"rename","family":"telemetry","revision":"v2"}
+{"as_of":"2026-07-28","content":"Sampling rate 10 Hz; default retention 90 days. Field renamed ping_rate.","doc_id":"telemetry/t-rate","edit_kind":"unchanged","family":"telemetry","revision":"v3"}
+{"as_of":"2026-01-05","content":"Timestamps in UTC, NTP synchronized, drift tolerance 50 ms.","doc_id":"telemetry/t-clock","edit_kind":"initial","family":"telemetry","revision":"v1"}
+{"as_of":"2026-04-12","content":"Timestamps in UTC, NTP synchronized, drift tolerance 50 ms.","doc_id":"telemetry/t-clock","edit_kind":"unchanged","family":"telemetry","revision":"v2"}
+{"as_of":"2026-07-28","content":"Timestamps in UTC, NTP synchronized, drift tolerance 50 ms.","doc_id":"telemetry/t-clock","edit_kind":"unchanged","family":"telemetry","revision":"v3"}
+{"as_of":"2026-01-05","content":"Channel CH-A reserved for vibration data.","doc_id":"telemetry/t-chan","edit_kind":"initial","family":"telemetry","revision":"v1"}
+{"as_of":"2026-04-12","content":"Channel CH-ACOUSTIC reserved for vibration data.","doc_id":"telemetry/t-chan","edit_kind":"rename","family":"telemetry","revision":"v2"}
+{"as_of":"2026-07-28","content":"Channel CH-SONIC reserved for vibration data.","doc_id":"telemetry/t-chan","edit_kind":"rename","family":"telemetry","revision":"v3"}
+{"as_of":"2026-01-05","content":"Batch B-120 released 2026-01-03. Release status: APPROVED.","doc_id":"compliance/c-batch","edit_kind":"initial","family":"compliance","revision":"v1"}
+{"as_of":"2026-04-12","content":"Batch B-120 previously approved is REVOKED pending re-test.","doc_id":"compliance/c-batch","edit_kind":"revoked-fact","family":"compliance","revision":"v2"}
+{"as_of":"2026-07-28","content":"Batch B-120 release remains REVOKED; re-test failed twice.","doc_id":"compliance/c-batch","edit_kind":"revoked-fact","family":"compliance","revision":"v3"}
+{"as_of":"2026-01-05","content":"Label must state max fill pressure 150 bar.","doc_id":"compliance/c-label","edit_kind":"initial","family":"compliance","revision":"v1"}
+{"as_of":"2026-04-12","content":"Label must state max fill pressure 200 bar (correction).","doc_id":"compliance/c-label","edit_kind":"correction","family":"compliance","revision":"v2"}
+{"as_of":"2026-07-28","content":"Label must state max fill pressure 200 bar (correction).","doc_id":"compliance/c-label","edit_kind":"unchanged","family":"compliance","revision":"v3"}
+{"as_of":"2026-01-05","content":"Document control: one week review after change.","doc_id":"compliance/c-doc","edit_kind":"initial","family":"compliance","revision":"v1"}
+{"as_of":"2026-04-12","content":"Document control: one week review after change.","doc_id":"compliance/c-doc","edit_kind":"unchanged","family":"compliance","revision":"v2"}
+{"as_of":"2026-07-28","content":"Document control: one week review after change.","doc_id":"compliance/c-doc","edit_kind":"unchanged","family":"compliance","revision":"v3"}
+{"as_of":"2026-01-05","content":"Audit window quarterly; sampling 5% of lots.","doc_id":"compliance/c-audit","edit_kind":"initial","family":"compliance","revision":"v1"}
+{"as_of":"2026-04-12","content":"Audit window quarterly; sampling 10% of lots.","doc_id":"compliance/c-audit","edit_kind":"number-change","family":"compliance","revision":"v2"}
+{"as_of":"2026-07-28","content":"Audit window quarterly; sampling 10% of lots.","doc_id":"compliance/c-audit","edit_kind":"unchanged","family":"compliance","revision":"v3"}
+{"as_of":"2026-01-05","content":"Route R-7 serves depots D1 and D2.","doc_id":"logistics/l-route","edit_kind":"initial","family":"logistics","revision":"v1"}
+{"as_of":"2026-04-12","content":"Route R-7B serves depots D1 and D2.","doc_id":"logistics/l-route","edit_kind":"rename","family":"logistics","revision":"v2"}
+{"as_of":"2026-07-28","content":"Route R-7B retired; depots D1 and D2 served by R-9.","doc_id":"logistics/l-route","edit_kind":"deleted","family":"logistics","revision":"v3"}
+{"as_of":"2026-01-05","content":"Depot D2 open; receives daily loads.","doc_id":"logistics/l-depot","edit_kind":"initial","family":"logistics","revision":"v1"}
+{"as_of":"2026-04-12","content":"Depot D2 open; receives daily loads.","doc_id":"logistics/l-depot","edit_kind":"unchanged","family":"logistics","revision":"v2"}
+{"as_of":"2026-07-28","content":"Depot D2 CLOSED; loads rerouted to D3.","doc_id":"logistics/l-depot","edit_kind":"deleted","family":"logistics","revision":"v3"}
+{"as_of":"2026-01-05","content":"Standard mode is rail for > 500 km.","doc_id":"logistics/l-mode","edit_kind":"initial","family":"logistics","revision":"v1"}
+{"as_of":"2026-04-12","content":"Standard mode is rail for > 500 km.","doc_id":"logistics/l-mode","edit_kind":"unchanged","family":"logistics","revision":"v2"}
+{"as_of":"2026-07-28","content":"Standard mode is rail for > 500 km.","doc_id":"logistics/l-mode","edit_kind":"unchanged","family":"logistics","revision":"v3"}
+{"as_of":"2026-01-05","content":"Rate per pallet 12 USD via D2.","doc_id":"logistics/l-rate","edit_kind":"initial","family":"logistics","revision":"v1"}
+{"as_of":"2026-04-12","content":"Rate per pallet 14 USD via D3.","doc_id":"logistics/l-rate","edit_kind":"number-change","family":"logistics","revision":"v2"}
+{"as_of":"2026-07-28","content":"Rate per pallet 11 USD via D3.","doc_id":"logistics/l-rate","edit_kind":"number-change","family":"logistics","revision":"v3"}
+{"as_of":"2026-01-05","content":"Spec SP-1: alloy AL-2024, temper T6.","doc_id":"supply/s-spec","edit_kind":"initial","family":"supply","revision":"v1"}
+{"as_of":"2026-04-12","content":"Spec SP-1: alloy AL-7075, temper T6. (Supersedes AL-2024.)","doc_id":"supply/s-spec","edit_kind":"contradictory-update","family":"supply","revision":"v2"}
+{"as_of":"2026-07-28","content":"Spec SP-1: alloy AL-7075, temper T651. (Supersedes T6.)","doc_id":"supply/s-spec","edit_kind":"contradictory-update","family":"supply","revision":"v3"}
+{"as_of":"2026-01-05","content":"Quote Q-1 valid 90 days; references SP-1 revision v1.","doc_id":"supply/s-quote","edit_kind":"initial","family":"supply","revision":"v1"}
+{"as_of":"2026-04-12","content":"Quote Q-1 revised; references SP-1 revision v2; price 4.2 USD/kg.","doc_id":"supply/s-quote","edit_kind":"cross-reference","family":"supply","revision":"v2"}
+{"as_of":"2026-07-28","content":"Quote Q-1 revised; references SP-1 revision v3; price 5.0 USD/kg.","doc_id":"supply/s-quote","edit_kind":"contradictory-update","family":"supply","revision":"v3"}
+{"as_of":"2026-01-05","content":"Supplier status: qualified for structural work.","doc_id":"supply/s-status","edit_kind":"initial","family":"supply","revision":"v1"}
+{"as_of":"2026-04-12","content":"Supplier status: qualified for structural work.","doc_id":"supply/s-status","edit_kind":"unchanged","family":"supply","revision":"v2"}
+{"as_of":"2026-07-28","content":"Supplier status: qualified for structural work.","doc_id":"supply/s-status","edit_kind":"unchanged","family":"supply","revision":"v3"}
+{"as_of":"2026-01-05","content":"Foundry capacity 40 t/month; supports quote Q-1.","doc_id":"supply/s-capacity","edit_kind":"initial","family":"supply","revision":"v1"}
+{"as_of":"2026-04-12","content":"Foundry capacity 55 t/month; supports quote Q-1.","doc_id":"supply/s-capacity","edit_kind":"number-change","family":"supply","revision":"v2"}
+{"as_of":"2026-07-28","content":"Foundry capacity 55 t/month; price basis 5.0 USD/kg.","doc_id":"supply/s-capacity","edit_kind":"number-change","family":"supply","revision":"v3"}
+{"as_of":"2026-01-05","content":"System ID format: SS-KKKK-NNN.","doc_id":"controls/k-id","edit_kind":"initial","family":"controls","revision":"v1"}
+{"as_of":"2026-04-12","content":"System ID format: SS-KKKK-NNN.","doc_id":"controls/k-id","edit_kind":"unchanged","family":"controls","revision":"v2"}
+{"as_of":"2026-07-28","content":"System ID format: SS-KKKK-NNN.","doc_id":"controls/k-id","edit_kind":"unchanged","family":"controls","revision":"v3"}
+{"as_of":"2026-01-05","content":"Sequence numbering starts at 1000 per site.","doc_id":"controls/k-seq","edit_kind":"initial","family":"controls","revision":"v1"}
+{"as_of":"2026-04-12","content":"Sequence numbering starts at 1000 per site.","doc_id":"controls/k-seq","edit_kind":"unchanged","family":"controls","revision":"v2"}
+{"as_of":"2026-07-28","content":"Sequence numbering starts at 1000 per site.","doc_id":"controls/k-seq","edit_kind":"unchanged","family":"controls","revision":"v3"}
+{"as_of":"2026-01-05","content":"Scope excludes maintenance accessories.","doc_id":"controls/k-scope","edit_kind":"initial","family":"controls","revision":"v1"}
+{"as_of":"2026-04-12","content":"Scope excludes maintenance accessories.","doc_id":"controls/k-scope","edit_kind":"unchanged","family":"controls","revision":"v2"}
+{"as_of":"2026-07-28","content":"Scope excludes maintenance accessories.","doc_id":"controls/k-scope","edit_kind":"unchanged","family":"controls","revision":"v3"}
+{"as_of":"2026-01-05","content":"Sign-off requires two operators.","doc_id":"controls/k-sign","edit_kind":"initial","family":"controls","revision":"v1"}
+{"as_of":"2026-04-12","content":"Sign-off requires two operators.","doc_id":"controls/k-sign","edit_kind":"unchanged","family":"controls","revision":"v2"}
+{"as_of":"2026-07-28","content":"Sign-off requires two operators.","doc_id":"controls/k-sign","edit_kind":"unchanged","family":"controls","revision":"v3"}

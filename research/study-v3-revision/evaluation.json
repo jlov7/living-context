@@ -1,0 +1,14 @@
+{
+  "initial": {
+    "routing-cedar": ["Which code routes the Cedar record? Return only a JSON object with one string field named answer.", "For Cedar, give the recorded private routing code as a single-field JSON answer."],
+    "routing-drift": ["Which code routes the Drift record? Return only a JSON object with one string field named answer.", "For Drift, give the recorded private routing code as a single-field JSON answer."],
+    "permit-larch": ["Which key belongs to the Larch permit? Return only a JSON object with one string field named answer.", "For Larch, give the recorded private permit key as a single-field JSON answer."],
+    "permit-mesa": ["Which key belongs to the Mesa permit? Return only a JSON object with one string field named answer.", "For Mesa, give the recorded private permit key as a single-field JSON answer."]
+  },
+  "final": {
+    "routing-cedar": ["Which code routes the Cedar record now? Return only a JSON object with one string field named answer.", "For Cedar's current record, give the private routing code as a single-field JSON answer."],
+    "routing-drift": ["Which code routes the Drift record? Return only a JSON object with one string field named answer.", "For Drift, give the recorded private routing code as a single-field JSON answer."],
+    "permit-larch": ["Which key belongs to the current Larch permit? Return only a JSON object with one string field named answer.", "For Larch's current record, give the private permit key as a single-field JSON answer."],
+    "permit-olive": ["Which key belongs to the Olive permit? Return only a JSON object with one string field named answer.", "For Olive, give the recorded private permit key as a single-field JSON answer."]
+  }
+}

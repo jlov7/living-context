@@ -1,0 +1,13 @@
+{
+  "elapsed_s": 3.5516614170046523,
+  "returncode": 1,
+  "rss_sample_interval_s": 0.25,
+  "sampled_process_peak_rss_bytes": 1121288192,
+  "schema_version": 1,
+  "stderr_sha256": "39e0613cbb3bb88ba1ae7a3c91d6b0019155b7375d4a40c86aa19f896780cd8c",
+  "stderr_tail": "Traceback (most recent call last):\n  File \"<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py\", line 1377, in <module>\n    main()\n    ~~~~^^\n  File \"<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py\", line 1369, in main\n    _calibration_worker(args.payload)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py\", line 564, in _calibration_worker\n    text = _cache_check_and_generate(\n        model,\n    ...<6 lines>...\n        payload[\"cache_logit_atol\"],\n    )\n  File \"<HOME>/Documents/Codex/2026-09-22/ok/work/living-context/experiments/replacement_study_v2.py\", line 519, in _cache_check_and_generate\n    raise StudyValidationError(\"cached and fresh next-token logits differ\")\nliving_context.replacement_study.StudyValidationError: cached and fresh next-token logits differ\n",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_tail": "",
+  "stop_reason": null,
+  "worker": "_calibration-worker"
+}
